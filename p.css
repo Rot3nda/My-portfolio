@@ -454,6 +454,9 @@ footer img{
 
 
 @media (max-width: 425px) {
+    .intro{
+        padding-top: 12rem;
+    }
 
 .CV{
         width: 3.5rem;
