@@ -441,7 +441,11 @@ footer img{
     }
 }
 
-
+@media (max-width: 600px) {
+    .intro{
+        height: 55vh;
+    }
+}
 
 @media (max-width: 425px) {
 
@@ -450,7 +454,7 @@ footer img{
      }
 
 .intro{
-    height: 60vh;
+    height: 50vh;
     padding-top: 8rem;
 }
 
@@ -466,7 +470,10 @@ footer img{
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
+    .intro{
+        height: 45vh ;
+    }
 }
 
 @media (max-width: 320px) {
