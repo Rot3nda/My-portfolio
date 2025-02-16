@@ -433,6 +433,8 @@ footer img{
 
 }
 
+
+
 @media (max-width: 700px) {
     .CV{
        top: 1.2rem;
@@ -441,21 +443,21 @@ footer img{
     }
 }
 
+
+
 @media (max-width: 600px) {
     .intro{
         height: 56vh;
     }
 }
 
+
+
 @media (max-width: 425px) {
 
 .CV{
         width: 3.5rem;
      }
-
-.intro{
-    padding-top: 8rem;
-}
 
     .intro h1{
         font-size: 210%;
