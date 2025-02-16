@@ -21,14 +21,26 @@
         </nav>
 
         <nav id="nav2">
-            <img src="images/icons8-menu-48.png">
+            <img id="menu" onclick="sidebarPop()" src="images/icons8-menu-48.png">
+            <img id="back" onclick="sidebarOff()" src="images/icons8-cross-64.png">
         </nav>
     </header>
 
 <section class="intro">
- <h1>Hi I'm Rotenda</h1>
-<p class="line">I'm a passionate Software Engineer/ Web developer</p>
-<div class="CV"><p>Resume</p></div>
+ <h1 id="line1">Hi I'm Rotenda</h1>
+<p id="line2" class="line">I'm a passionate Software Engineer/ Web developer</p>
+<div id="line3" class="CV"><p>Resume</p></div>
+</section>
+
+<section id="sidebar">
+    <p id="p1">Menu</p>
+    <div>
+       <a href="#about"><p onclick="sidebarOff()">About</p></a>
+       <a href="#skills"><p onclick="sidebarOff()">Skills</p></a>
+       <a href="#projects"><p onclick="sidebarOff()">Projects</p></a>
+       <a href="#contact"><p onclick="sidebarOff()">Contact</p></a>
+       <a href="#contact"><p onclick="sidebarOff()">Resume</p></a>
+    </div>
 </section>
 
 <section id="about">
