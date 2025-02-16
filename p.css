@@ -454,7 +454,6 @@ footer img{
      }
 
 .intro{
-    height: 50vh;
     padding-top: 8rem;
 }
 
@@ -464,8 +463,6 @@ footer img{
     .intro p{
         font-size: 90%;
     }
-
-    
 }
 
 
