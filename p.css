@@ -18,8 +18,6 @@ body {
 /* Header */
 
 header {
-
-
     background-color: #101623;
     color: #fff;
     padding: 1rem 0;
@@ -75,7 +73,7 @@ nav ul li a {
     display: block;
     justify-content: center;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 10rem;
 }
 
 .intro h1{
@@ -96,11 +94,10 @@ nav ul li a {
 /* Resume */
 
 .CV{
-    width: 9%;
-    height: 4%;
+    width: 5rem; height: 4%;
     position: absolute;
-    top: 2%;
-    left: 1%;
+    top: 1rem;
+    left: 1rem;
     position: fixed;
     background-color: orangered;
     color:white;
@@ -109,7 +106,6 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
-    translate: width 3s height 5s;
 }
 
 .CV p{
@@ -414,6 +410,9 @@ footer img{
 
 
 @media (max-width: 1024px) {
+    .intro h1{
+       font-size: 330%;
+    }
 }
 
 
@@ -427,14 +426,54 @@ footer img{
     #nav2{
         display: block;
     }
+
+    .intro h1{
+      font-size:250%;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .CV{
+       top: 1.2rem;
+       width: 4rem;
+       height: 3.5%;
+    }
 }
 
 
 
 @media (max-width: 425px) {
+
+.CV{
+        width: 3.5rem;
+     }
+
+.intro{
+    height: 60vh;
+    padding-top: 8rem;
+}
+
+    .intro h1{
+        font-size: 210%;
+    }
+    .intro p{
+        font-size: 90%;
+    }
+
+    
 }
 
 
 
 @media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+    .intro h1{
+        font-size: 190%;
+    }
+    .intro p{
+        font-size: 85%;
+    }
 }
