@@ -54,11 +54,11 @@ nav ul li a {
     display: none;
     position: relative;
     right: 22px;
+}
 
-    img{
-        width: 25px;
+#nav2 img{
+     width: 25px;
         height: 23px;
-    }
 }
 
 .intro{
@@ -69,17 +69,19 @@ nav ul li a {
     justify-content: center;
     text-align: center;
     padding-top: 15%;
+}
 
-    h1{
-        color: greenyellow;
-        font-size: 4rem;
-    }
-    .line{
-        font-size: 1rem;
-    }
-    p{
-        color: #c6c6c6;
-    }
+.intro h1{
+    color: greenyellow;
+    font-size: 4rem;
+}
+
+.line{
+     font-size: 1rem;
+}
+
+.intro p{
+     color: #c6c6c6;
 }
 
 .CV{
@@ -97,10 +99,11 @@ nav ul li a {
     align-items: center;
     box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
     translate: width 3s height 5s;
-    P{
-    color: #ffffff;
+}
+
+.CV p{
+     color: #ffffff;
     font-weight: bold;
-    }
 }
 
 .CV:hover{
@@ -115,35 +118,34 @@ nav ul li a {
     height: 60vh;
     padding: 1%;
     display: block;
+}
 
-    .about{
-        padding-left: 2%;
-        margin: auto;
+.about{
+       padding-left: 2%;
+       margin: auto;
        max-width: 80%;
        height: 55vh;
        box-shadow: 2px 2px 2px 2px #101623;
        background-color: #f6f5f5;
        overflow: auto;
+  }
 
-    h1{
-        text-align: center;
+  .about h1{
+     text-align: center;
         font-size: 190%;
-    }
+  }
 
-    img{
-        width: 40%;
+  .about img{
+      width: 40%;
         height: 85%;
         float: left;
-    }
-    
-    p{
-        font-size: 125%;
-        padding-top: 4%;
-        padding-left: 41%;
-    }
-   
   }
-}
+
+  .about p{
+    font-size: 125%;
+    padding-top: 4%;
+    padding-left: 41%;
+  }
 
 
 #skills
@@ -153,15 +155,22 @@ nav ul li a {
     background-color: rgb(255, 255, 255);
     padding: 2%;
     padding-bottom: 1%;
+}
 
-    h1{
-        text-align:end;
-        font-size: 200%;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        padding-right: 15%;
-    }
+#sk{
+   text-align: end;
+   padding-right: 25%;
+   font-size: 200%;
+} 
 
-    .skills{
+.skill h1{
+     text-align:center;
+    font-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 15%;
+}
+
+ .skills{
     width: 100%;
     height: 65vh;
     background-color: rgb(255, 255, 255);
@@ -172,30 +181,20 @@ nav ul li a {
        justify-content:space-around;
        align-items: center;
        flex-wrap: wrap;
+    }
 
-       .skill{
-        h1{
-        text-align: center;
-        color: #000000;
-        font-size: 100%;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       }
+
+ .skill{
         width: 25%;
-        height: 10vh;
+        height: 8vh;
         background-color: #ffffff;
         margin: 0.5%;
         text-align: center;
        }  
 
-    }
-
-}
+  
 
 .skill div{
-
-    h1{
-        font: 130%;
-    }
     width: 100%;
     height: 5vh;
     background-color: rgba(45, 45, 45, 0.365);
@@ -204,6 +203,7 @@ nav ul li a {
     margin: 0px;
     box-shadow: 2px 2px 1px 1px grey;
 }
+
 
 .skill div div{
     width: 80%;
@@ -267,15 +267,10 @@ nav ul li a {
    height: 105vh;
    background-color: #ffffff;
    padding: 5%;
-   
-   h1{
-    padding-left: 6%;
-    padding-top: 0%;
-    font-size: 200%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   }
+}
 
-   .projects{
+
+.projects{
     box-shadow: 2px 10px 10px 0px #151f32;
     border-radius: 15px;
        max-width: 100%;
@@ -288,41 +283,45 @@ nav ul li a {
        justify-content:space-evenly;
        align-items: center;
        flex-wrap: wrap;
+   }
 
-       p{
-        text-align: center;
-       }
+.projects p{
+     text-align: center;
+   }
 
-       .project{
+.project{
          width: 20%;
          height: 25vh;
          background-color: #ffffff;
          box-shadow: 2px 2px 2px 2px rgb(169, 204, 232);
          margin: 3%;
-       }
+}
 
-       .project div{
+.project div{
           width: 100%;
           height: 20vh;
           background-color: #141a26;
-       }
+}  
 
 
-   }
+
+#projects h1{
+        padding-left: 6%;
+        padding-top: 0%;
+        font-size: 200%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#p5 div{
+.project div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#p5 img{
+.project div img{
     width: 30px;
     height: 30px;
 }
-
-
 
 #contact{
     max-width: 100%;
@@ -351,9 +350,10 @@ video{
 #c2{
     padding-top: 1%;
     padding-left: 2%;
-    h1{
-        font-size: 190%;
-    }
+}
+
+#c2 h1{
+   font-size: 190%;
 }
 
 .c2a{
@@ -363,7 +363,6 @@ video{
     padding-left: 12%;
     padding-top: 1%;
 }
-
 
 
 input{
@@ -392,31 +391,28 @@ footer{
     align-items: center;
     background-color: #222428;
     color: rgb(193, 193, 193);
-    
+}
 
-    img{
+footer img{
         width: 35px;
         height: 35px;
         margin: 2.5%;
-    }
-    
-    .l{
+}
+
+ .l{
         width: 40px;
         height: 40px;
     }
 
-    .c{
+
+.c{
         width: 50%;
         height: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0px;
-    }
-
 }
-
-
 
 /* Responsive Design */
 
@@ -440,27 +436,14 @@ footer{
     #nav2{
         display: block;
     }
-
-    .about{
-        img{
-            
-        }
-    }
 }
 
 @media (max-width: 425px) {
    
-img{
-    display: none;
-}
+
 }
 
 @media (max-width: 375px) {
    
-#nav2{
-    img{
-        width: 15px;
-        height: 17px;
-    }
-  }
+
 }
