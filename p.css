@@ -146,14 +146,6 @@ nav ul li a {
     color: #141a26;
 }
 
-#p1{
-    text-align: center;
-    border-radius: 20px;
-    color: white !important;
-    background-color: #151f32;
-}
-
-
 #sidebar div{
     width: 100%;
     height: 50%;
@@ -529,6 +521,31 @@ footer img{
        width: 4rem;
        height: 3.5%;
     }
+#c1,#c2{
+    background-color: red;
+}
+
+    .c2a{
+        height: fit-content;
+    }
+
+  #c1,#c2{
+        width: 100%; height: fit-content;
+        margin: 0px;
+      }
+
+    #contact{
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    input{
+        width: 95%;
+    }
+  
 }
 
 
