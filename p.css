@@ -251,18 +251,17 @@ nav ul li a {
     width: 80%; height: 4vh;
     border-radius: 20px;
     border-top-right-radius: 0px; border-bottom-right-radius: 0px;
+    border-radius: 20px;
 }
 
 #d1{
     background-color: #ffea00;
     width: 99%;
-    border-radius: 20px;
 }
 
 #d2{
     background-color: aqua;
     width: 100%;
-    border-radius: 20px;
 }
 
 #d3{
@@ -273,7 +272,6 @@ nav ul li a {
 #d4{
     background-color: greenyellow;
     width: 98%;
-    border-radius: 20px;
 }
 
 #d5{
