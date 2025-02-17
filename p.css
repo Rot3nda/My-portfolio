@@ -630,6 +630,7 @@ footer img{
         display: flex; flex-direction: column; flex-wrap: nowrap;
     }
 
+    
     #contact{
         height:fit-content;
     }
