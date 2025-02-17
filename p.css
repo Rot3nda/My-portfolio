@@ -432,6 +432,15 @@ footer img{
         margin: 2.5%;
 }
 
+footer a{
+    margin: 2.5%;
+}
+
+footer img:hover{
+    width: 40px;
+    height: 40px;
+}
+
  .l{
         width: 40px;
         height: 40px;
