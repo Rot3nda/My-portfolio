@@ -205,7 +205,7 @@ nav ul li a {
 
 #skills
 {
-    max-width: 100%; height: 80vh;
+    max-width: 100%; height: fit-content;
     background-color: rgb(255, 255, 255);
     padding: 2%; padding-bottom: 1%;
 }
@@ -224,7 +224,7 @@ nav ul li a {
 
  .skills{
     width: 100%;
-    height: 65vh;
+    height: fit-content;
     background-color: rgb(255, 255, 255);
     padding-left: 10%; padding-right: 10%; padding-bottom: 5%; padding-top: 5%;
     display: flex; flex-wrap: wrap; flex-direction: row; justify-content:space-around; align-items: center;
@@ -299,7 +299,29 @@ nav ul li a {
     width: 50%;
 }
 
+.skills2{
+    width: 100%;
+    height: 50vh;
+    background-color: #101623;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 
+}
+
+.skills2 div{
+    width: 11%;
+    height: 20vh;
+    background-color: #4b6496;
+    margin: 3%;
+}
+
+.skills2 div img{
+    width: 100%;
+    height: 100%;
+    
+}
 
 /* My projects */
 
@@ -436,10 +458,6 @@ footer a{
     margin: 2.5%;
 }
 
-footer img:hover{
-    width: 40px;
-    height: 40px;
-}
 
  .l{
         width: 40px;
@@ -621,6 +639,19 @@ footer img:hover{
     
     .skill div div{
         height: 3vh;
+    }
+
+    .skills2{
+      
+        padding: 0.5%;
+    }
+
+    .skills2 div{
+        width: 32%;
+        height: 18vh;
+        background-color: #4b6496;
+        margin: 3%;
+        border-radius: 15px;
     }
 
     .projects{
