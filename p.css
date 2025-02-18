@@ -613,6 +613,10 @@ footer a{
         height: fit-content;
     }
 
+    #sk{
+        margin-top: 2%;
+    }
+
     .skill{
         width: 90%;
         margin: auto;
@@ -647,6 +651,10 @@ footer a{
         background-image: linear-gradient(to bottom,white, #f5f5f5 );
         padding: 0px;
         display: flex; flex-direction: column; flex-wrap: nowrap;
+    }
+
+    #projects{
+        margin-bottom: 0%;
     }
 
     
