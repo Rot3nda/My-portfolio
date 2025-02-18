@@ -354,7 +354,7 @@ nav ul li a {
 
 #projects h1{
         padding-left: 6%; padding-top: 0%;
-        font-size: 200%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 170%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .project div {
@@ -652,6 +652,20 @@ footer a{
     
     #contact{
         height:fit-content;
+    }
+
+    #contact h1{
+        text-align: center;
+        font-size: 170%;
+        margin-bottom: 5%;
+    }
+
+    #c2{
+        padding-top: 1%;
+    }
+
+    #c1{
+        display: none;
     }
 
     footer img{
