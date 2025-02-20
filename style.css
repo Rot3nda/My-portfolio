@@ -1,10 +1,12 @@
-/* Reset some default styles */
+                                  /* Resetting some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+                                          /* Body */
 
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -15,7 +17,7 @@ body {
 
 
 
-/* Header */
+                                          /* Header */
 
 header {
     background-color: #101623;
@@ -35,7 +37,6 @@ nav ul li {
     display: inline;
     margin-right: 35px;
     padding-bottom: 10px;
-   
 }
 
 #homenav{
@@ -58,7 +59,6 @@ nav ul li a {
     right: 22px;
 }
 
-
 #menu{
     width: 25px;
     height: 23px;
@@ -70,7 +70,7 @@ nav ul li a {
     height: 27px;
 }
 
-/* Introduction */
+                                    /* Introduction */
 
 .intro{
     max-width: 100%;
@@ -96,9 +96,7 @@ nav ul li a {
      color: #c6c6c6;
 }
 
-
-
-/* Resume */
+                                       /* Resume */
 
 .CV{
     width: 5rem; height: 4%;
@@ -124,6 +122,8 @@ nav ul li a {
     width: 10%;
     height: 5%;
 }
+
+                                         /* Sidebar */
 
 #sidebar{
     position: absolute;
@@ -153,7 +153,6 @@ nav ul li a {
     color: #141a26;
 }
 
-
 #sidebar div{
     width: 100%;
     height: 50%;
@@ -164,7 +163,7 @@ nav ul li a {
    text-decoration: none;
 }
 
-/* About me */
+                                          /* About */
 
 #about{
     max-width: 100%; height: 60vh;
@@ -198,10 +197,7 @@ nav ul li a {
     padding-top: 4%; padding-left: 41%;
   }
 
-
-
-
-  /* My skills */
+                                            /* Skills */
 
 #skills
 {
@@ -230,7 +226,6 @@ nav ul li a {
     display: flex; flex-wrap: wrap; flex-direction: row; justify-content:space-around; align-items: center;
     }
 
-
  .skill{
         width: 25%; height: 8vh;
         background-color: #ffffff;
@@ -245,7 +240,6 @@ nav ul li a {
     padding: 0px; margin: 0px;
     box-shadow: 2px 2px 1px 1px grey;
 }
-
 
 .skill div div{
     width: 80%; height: 4vh;
@@ -310,17 +304,15 @@ nav ul li a {
     border-radius: 15px;
     white-space:nowrap;
     overflow-x: scroll;
-
 }
 
-/* My projects */
+                                                /* Projects */
 
 #projects{
    max-width: 100%; height: 105vh;
    background-color: #ffffff;
    padding: 5%;
 }
-
 
 .projects{
     box-shadow: 2px 10px 10px 0px #151f32;
@@ -344,13 +336,10 @@ nav ul li a {
     margin: 3%;
 }
 
-
-
 .project div{
           width: 100%; height: 20vh;
           background-color: #141a26;
 }  
-
 
 #projects h1{
         padding-left: 6%; padding-top: 0%;
@@ -366,9 +355,7 @@ nav ul li a {
     width: 30px; height: 30px;
 }
 
-
-
-/* My contact */
+                                /* Contact */
 
 #contact{
     max-width: 100%; height: 60vh;
@@ -384,7 +371,6 @@ nav ul li a {
   margin: 0.3%;
   display: block;
 }
-
 
 video{
     width: 100%; height:55vh;
@@ -406,7 +392,6 @@ video{
     padding-top: 1%;
 }
 
-
 input{
     margin-bottom: 3%;
     width: 80%;
@@ -423,9 +408,7 @@ input{
     color: white;
 }
 
-
-
-/* Footer */
+                                                     /* Footer */
 
 footer{
     max-width: 100%;
@@ -445,31 +428,31 @@ footer img{
 }
 
 footer a{
-    margin: 2.5%;
+        margin: 2.5%;
 }
 
 
  .l{
-        width: 40px;
-        height: 40px;
-    }
-
-
-.c{
-        width: 50%;
-        height: 10vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
+    width: 40px;
+    height: 40px;
 }
 
 
+.c{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
 
-/* Responsive Design */
+
+                                                /* Responsive Design */
 
 
 @media (max-width: 1024px) {
+
     .intro h1{
        font-size: 330%;
     }
@@ -479,13 +462,13 @@ footer a{
     }
 
     .about img{
-        
         width:310px;
         height: 270px;
       }
+
 }
 
-
+                                                        /* 768 */
 
 @media (max-width: 768px) {
 
@@ -512,11 +495,11 @@ footer a{
       font-size:250%;
     }
 
-    .about{
+    #about{
         height: fit-content;
     }
 
-    #about{
+    .about{
         height: fit-content;
     }
 
@@ -532,19 +515,17 @@ footer a{
         padding-top: 1%; padding-left: 1%;
       }
 
-   
-
 }
 
-
+                                                 /* 700px */ 
 
 @media (max-width: 700px) {
+
     .CV{
        top: 1.2rem;
        width: 4rem;
        height: 3.5%;
     }
-
 
     .c2a{
         height: fit-content;
@@ -556,46 +537,51 @@ footer a{
         padding: 0px;
       }
 
-    #contact{
-        flex-direction: column;
-        justify-content: center;
-        height: 110vh;
-        margin: 0%;
-        padding: 0%;
-        align-items: flex-start;
+#contact{
+    flex-direction: column;
+    justify-content: center;
+    height: 110vh;
+    margin: 0%;
+    padding: 0%;
+    align-items: flex-start;
     }
 
     input{
-        width: 95%;
+       width: 95%;
     }
   
 }
 
+                                                    /* 600px */
 
 
 @media (max-width: 600px) {
+
     .intro{
         height: 56vh;
     }
     .project div img{
         width: 20px; height: 20px;
     }
+
 }
 
-
+                                                  /* 425px */
 
 @media (max-width: 425px) {
+      
     .intro{
         padding-top: 12rem;
     }
 
-.CV{
+    .CV{
         width: 3.5rem;
      }
 
     .intro h1{
         font-size: 210%;
     }
+
     .intro p{
         font-size: 90%;
     }
@@ -630,12 +616,10 @@ footer a{
         height: 3vh;
     }
     
-    
     .skill div div{
         height: 3vh;
     }
 
-    
     .projects{
            height:85vh ;
            background-image: linear-gradient(to bottom,white, #f5f5f5 );
@@ -645,6 +629,10 @@ footer a{
            overflow-y: auto;
        }
 
+      #projects{
+        margin-bottom: 0%;
+    }
+
        .project{
         width: 75%;
         height: 15vh;
@@ -653,11 +641,6 @@ footer a{
         display: flex; flex-direction: column; flex-wrap: nowrap;
     }
 
-    #projects{
-        margin-bottom: 0%;
-    }
-
-    
     #contact{
         height:fit-content;
     }
@@ -687,12 +670,12 @@ footer p{
 }
 
 }
-
-
+                                             /* 400px */
 
 @media (max-width: 400px) {
    
 }
+                                            /* 320px */
 
 @media (max-width: 320px) {
     .intro h1{
