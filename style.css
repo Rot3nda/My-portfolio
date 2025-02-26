@@ -290,10 +290,9 @@ nav ul li a {
                                                 /* Projects */
 
 #projects{
-   max-width: 100%; height: 60vh;
+   max-width: 100%; height: fit-content;
    background-color: #ffffff;
    padding: 5%;
-   overflow-y: scroll;
 }
 
 .projects{
