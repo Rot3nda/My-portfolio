@@ -311,7 +311,7 @@ nav ul li a {
    }
 
 .project{
-    width: 25%; height: 31vh;
+    width: 24%; height: 30vh;
     background-color: #ffffff;
     box-shadow: 2px 2px 2px 2px rgb(169, 204, 232);
     margin: 3%;
@@ -686,11 +686,19 @@ footer a{
 
        .project{
         width: 75%;
-        height: 15vh;
+        height: 28vh;
         background-image: linear-gradient(to bottom,white, #f5f5f5 );
         padding: 0px;
         display: flex; flex-direction: column; flex-wrap: nowrap;
+        padding-bottom: 0%;
     }
+
+   .projects{
+    height: fit-content;
+   }
+   #projects{
+    height: fit-content;
+   }
 
     #contact{
         height:fit-content;
