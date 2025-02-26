@@ -330,9 +330,6 @@ nav ul li a {
         font-size: 170%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.project div img{
-    width: 20px; height: 20px;
-}
 
 #p1 img{
     width: 100%;
@@ -393,7 +390,7 @@ nav ul li a {
 }
 
 #p5 img{
- 
+    width: 20px; height: 20px;
 }
 
 #p5 p{
@@ -693,12 +690,31 @@ footer a{
         padding-bottom: 0%;
     }
 
+
+
    .projects{
     height: fit-content;
    }
    #projects{
     height: fit-content;
    }
+
+   #p1 p{
+     padding-top: 6%;
+   }
+
+   #p2 p{
+    padding-top: 6%;
+  }
+
+  #p3 p{
+    padding-top: 6%;
+  }
+
+  #p4 p{
+    padding-top: 6%;
+  }
+
 
     #contact{
         height:fit-content;
