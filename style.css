@@ -336,6 +336,20 @@ nav ul li a {
     width: 30px; height: 30px;
 }
 
+#p1 img{
+    width: 100%;
+    height:fit-content;
+}
+
+#p1 p{
+    margin: 5%;
+}
+
+#p1 a{
+    text-decoration: none;
+    color: black;
+}
+
                                                /* Contact */
 
 #contact{
