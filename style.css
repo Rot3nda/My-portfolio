@@ -311,7 +311,7 @@ nav ul li a {
    }
 
 .project{
-    width: 20%; height: 25vh;
+    width: 25%; height: 31vh;
     background-color: #ffffff;
     box-shadow: 2px 2px 2px 2px rgb(169, 204, 232);
     margin: 3%;
@@ -320,6 +320,9 @@ nav ul li a {
 .project div{
           width: 100%; height: 20vh;
           background-color: #141a26;
+          display: flex;
+          justify-content: center; align-items: center;
+
 }  
 
 #projects h1{
@@ -327,13 +330,8 @@ nav ul li a {
         font-size: 170%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.project div {
-    display: flex;
-    justify-content: center; align-items: center;
-}
-
 .project div img{
-    width: 30px; height: 30px;
+    width: 20px; height: 20px;
 }
 
 #p1 img{
@@ -342,13 +340,71 @@ nav ul li a {
 }
 
 #p1 p{
-    margin: 5%;
+   padding-top: 10%;
 }
 
 #p1 a{
     text-decoration: none;
     color: black;
 }
+
+
+#p2 img{
+    width: 100%;
+    height:auto;
+}
+
+#p2 p{
+    padding-top: 10%;
+}
+
+#p2 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#p3 img{
+    width: 100%;
+    height:fit-content;
+}
+
+#p3 p{
+    padding-top: 10%;
+}
+
+#p3 a{
+    text-decoration: none;
+    color: black;
+}
+
+#p4 img{
+    width: 100%;
+    height:fit-content;
+}
+
+#p4 p{
+    padding-top: 10%;
+}
+
+#p4 a{
+    text-decoration: none;
+    color: black;
+}
+
+#p5 img{
+ 
+}
+
+#p5 p{
+    padding-top: 10%;
+}
+
+#p5 a{
+    text-decoration: none;
+    color: black;
+}
+
 
                                                /* Contact */
 
