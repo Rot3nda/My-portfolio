@@ -74,11 +74,11 @@ nav ul li a {
     max-width: 100%;
     background-color: #151f32;
     height: 65vh;
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 10rem;
-    margin-bottom: 1%;
+  
 }
 
 .intro h1{
@@ -164,7 +164,7 @@ nav ul li a {
                                            /* About */
 
 #about{
-    max-width: 100%; height: 60vh;
+    max-width: 100%; height: fit-content;
     background-color: #ffffff;
     padding: 1%;
     display: block;
@@ -173,7 +173,7 @@ nav ul li a {
 .about{
        padding-left: 2%;
        margin: auto;
-       max-width: 80%; height: 55vh;
+       max-width: 80%; height: fit-content;
        box-shadow: 2px 2px 2px 2px #101623;
        background-color: #f6f5f5;
        overflow-x: hidden;
@@ -186,13 +186,14 @@ nav ul li a {
   }
 
   .about img{
-      width: 12rem 0; height: 85%;
+      width: 22rem ; height: auto;
       float: left;
+      margin-bottom: 2.5rem;
   }
 
   .about p{
     font-size: 120%;
-    padding-top: 4%; padding-left: 41%;
+    padding-top: 6rem; padding-left: 25rem; padding-right: 2rem;
   }
 
                                             /* Skills */
@@ -290,7 +291,7 @@ nav ul li a {
                                                 /* Projects */
 
 #projects{
-   max-width: 100%; height: 105vh;
+   max-width: 100%; height: fit-content;
    background-color: #ffffff;
    padding: 5%;
 }
@@ -506,13 +507,36 @@ footer a{
     }
 
     .about p{
-        font-size: 105%;
+        font-size: 110%;
     }
 
     .about img{
-        width:310px;
-        height: 270px;
+       width: 18rem;
       }
+
+}
+
+@media (max-width: 1096px) {
+
+    .about p{
+        padding-top: 4.3rem;
+    }
+
+}
+
+@media (max-width: 940px) {
+
+    .about p{
+        padding-top: 3.3rem;
+    }
+
+}
+
+@media (max-width: 860px) {
+
+    .about p{
+        padding-top: 2rem;
+    }
 
 }
 
@@ -560,7 +584,7 @@ footer a{
 
     .about p{
         font-size: 100%;
-        padding-top: 1%; padding-left: 1%;
+        padding-top: 3%; padding-left: 1%; padding-right: 0%; padding-bottom: 3%;
       }
 
 }
@@ -612,15 +636,22 @@ footer a{
         width: 20px; height: 20px;
     }
 
+    .skill div{
+         height: 3.2vh;
+    }
+    
+    .skill div div{
+        height: 3.2vh;
+    }
+    
+
 }
 
                                                   /* 430px */
 
 @media (max-width: 430px) {
       
-    .intro{
-        padding-top: 12rem;
-    }
+    
 
     .CV{
         width: 3.5rem;
@@ -669,7 +700,7 @@ footer a{
     }
 
     .projects{
-           height:85vh ;
+           height:fit-content ;
            background-image: linear-gradient(to bottom,white, #f5f5f5 );
            padding: 0px;
            display: flex; flex-direction: column; flex-wrap: nowrap;
@@ -682,21 +713,23 @@ footer a{
     }
 
        .project{
-        width: 75%;
-        height: 28vh;
+        width: 65%;
+        height: fit-content;
         background-image: linear-gradient(to bottom,white, #f5f5f5 );
         padding: 0px;
         display: flex; flex-direction: column; flex-wrap: nowrap;
         padding-bottom: 0%;margin: 5%;
     }
 
+    .project div{
+        height: fit-content;
+    }
 
-   .projects{
-    height: fit-content;
-   }
-   #projects{
-    height: fit-content;
-   }
+    .project p{
+        margin-bottom: 0.8rem;
+        margin-top: 0px;
+    }
+
 
    #p1 p{
      padding-top: 6%;
@@ -712,6 +745,10 @@ footer a{
 
   #p4 p{
     padding-top: 6%;
+  }
+
+  #p5 div{
+    height: 10vh;
   }
 
 
