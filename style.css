@@ -272,7 +272,6 @@ nav ul li a {
     width: 40%;
 }
 
-
 #d6{
     background-color:yellow;
     width: 40%;
@@ -480,12 +479,10 @@ footer a{
         margin: 2.5%;
 }
 
-
  .l{
     width: 40px;
     height: 40px;
 }
-
 
 .c{
     width: 50%;
@@ -642,16 +639,13 @@ footer a{
     
     .skill div div{
         height: 3.2vh;
-    }
-    
+    }  
 
 }
 
                                                   /* 430px */
 
 @media (max-width: 430px) {
-      
-    
 
     .CV{
         width: 3.5rem;
@@ -750,7 +744,6 @@ footer a{
   #p5 div{
     height: 10vh;
   }
-
 
     #contact{
         height:fit-content;
