@@ -12,14 +12,15 @@
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   /*  line-height: 1.6; */
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     scroll-behavior: smooth;
 }
 
                                           /* Header */
 
 header {
-    background-color: #101623;
+
+    background-color: #090c14;
     color: #fff;
     padding: 1rem 0;
     display: flex;
@@ -39,17 +40,21 @@ nav ul li {
 }
 
 #homenav{
-    border-bottom: 2px solid rgb(141, 42, 239);
+    border-bottom: 3px solid rgb(141, 42, 239);
 }
 
- nav ul li:hover {
-   border-bottom: 1px solid rgb(141, 42, 239);
+nav ul li:hover {
+   border-bottom: 3px solid rgb(141, 42, 239);
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
+}
+
+#nav1{
+    z-index: 1000;
 }
 
 #nav2{
@@ -74,16 +79,85 @@ nav ul li a {
 .intro{
     max-width: 100%;
     background-color: #151f32;
-    height: 65vh;
+    height: 93vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
-  
+    background-image: linear-gradient(to bottom,#090c14,#000000);
+    border-bottom-left-radius: 20%;
+}
+.intro p{
+    color: #c6c6c6;
+}
+
+.introLeft{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.i1{
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.square{
+    width: 20%;
+    height: 35%;
+    background-color: rgb(18, 18, 34);
+    position: absolute;
+    top: 12%;
+    right: 8%;
+    transform: rotate(35deg);
+    border-left: 1px dotted greenyellow;
+    border-bottom: 1px dotted rgb(47, 0, 255);   
+    background-image: linear-gradient(to right,#2b1e41,rgb(0, 0, 0));
+    background-image: linear-gradient(to top,rgb(164, 134, 206),#000000);
+}
+.squarein{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 28, 52);
+    position: absolute;
+    top: 13%;
+    right: 5%;
+    top: 30%;
+    right: 15%;
+    transform: rotate(215deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px dotted orangered;
+    background-image: linear-gradient(to bottom,#2b1e41,rgb(0, 0, 0));
+    transition: 3s ease-in-out;
+}
+
+.squarein:hover{
+    background-image: linear-gradient(to left,#2b1e41,rgb(0, 0, 0));   
+}
+.squarein p{
+    font-size: 1.2rem;
+    color: rgb(239, 212, 255);
+    transform: rotate(110deg);
+    border-radius: 20px;
+    padding: 5%;
+    background-image: linear-gradient(to right,#2b1e41,rgb(0, 0, 0));
+    border: 1px dotted orchid;
 }
 
 .intro h1{
     color: greenyellow;
+    color: rgb(255, 184, 255);
     font-size: 4rem;
 }
 
@@ -91,8 +165,84 @@ nav ul li a {
      font-size: 1rem;
 }
 
-.intro p{
-     color: #c6c6c6;
+#line1{
+    font-size: 1.5rem;
+    z-index: 1;
+}
+#line1S{
+    font-size: 2.7rem;
+    z-index: 1;
+}
+#line2{
+    font-size: 4.5rem;
+    z-index: 1;
+}
+
+.outerCircle{
+    width: 35%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    width: fit-content;
+    height: fit-content;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: rgb(203, 162, 254);
+    background-color: transparent;
+    border-bottom: 1px solid rgb(255, 184, 255);
+    border-left: 1px solid rgb(255, 184, 255);
+    border-right: 1px solid rgb(255, 184, 255);
+    margin: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 5%;
+    z-index: 3;
+}
+
+#k1{
+    background-image: linear-gradient(to top,transparent,rgb(92, 0, 92));
+}
+#k2{
+    background-image: linear-gradient(to bottom,transparent,purple);
+}
+
+#k1:hover,#k2:hover{
+    background-image: linear-gradient(to right,transparent,purple);
+}
+
+
+.circle2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: transparent;
+    border-top: 1.5px solid rgb(254, 210, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    left: 100px;
+}
+
+.circle2:hover{
+    border-top: 0px solid rgb(254, 210, 255);
+    background-image: linear-gradient(to bottom,transparent,purple);
+    border-bottom: 1.5px solid rgb(254, 210, 255);
+}
+.circle2 div{
+    width: 30%;
+    height: 30%;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    transform: rotate(45deg);
 }
 
                                          /* Resume */
@@ -104,7 +254,8 @@ nav ul li a {
     left: 1rem;
     position: fixed;
     background-color: rgb(100, 0, 182);
-    color:white;
+    background-color: rgba(63, 0, 76, 0.8);
+    color:rgb(0, 0, 0);
     border-radius: 3000px;
     display: flex;
     justify-content: center;
@@ -113,13 +264,15 @@ nav ul li a {
 }
 
 .CV p{
-     color: #dedede;
+     color: #ffffff;
 }
 
-.CV:hover{
-    font-size: 110%;
-    width: 10%;
-    height: 5%;
+.k{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
                                          /* Sidebar */
@@ -169,6 +322,8 @@ nav ul li a {
     background-color: #ffffff;
     padding: 1%;
     display: block;
+    border-top-right-radius: 20%;
+    margin-top: 4%;
 }
 
 .about{
@@ -203,7 +358,7 @@ nav ul li a {
 {
     max-width: 100%; height: fit-content;
     background-color: rgb(255, 255, 255);
-    padding-top: 6%; padding-bottom: 0%;padding-left: 2%; padding-right: 2%;
+    padding-top: 4%; padding-bottom: 0%;padding-left: 2%; padding-right: 2%;
 }
 
 #sk{
@@ -214,34 +369,36 @@ nav ul li a {
 
 .skill h1{
     text-align:center;
-    font-size: 100%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-right: 15%;
+    margin-bottom: 15px;
 }
 
  .skills{
     width: 100%;
     height: fit-content;
     background-color: rgb(255, 255, 255);
-    padding-left: 10%; padding-right: 10%; padding-bottom: 4%; padding-top: 5%;
+    padding-left: 10%; padding-right: 10%; padding-bottom: 4%; padding-top: 3%;
     display: flex; flex-wrap: wrap; flex-direction: row; justify-content:space-around; align-items: center;
     }
 
  .skill{
-        width: 25%; height: 8vh;
+        width: 15rem; height: fit-content;
         background-color: #ffffff;
         margin: 3.5%;
         text-align: center;
        }  
   
-.skill div{
+.sk1{
     width: 100%; height: 4vh;
     background-color: rgba(45, 45, 45, 0.365);
     border-radius: 20px;
     padding: 0px; margin: 0px;
     box-shadow: 2px 2px 1px 1px grey;
+    margin-bottom: 5%;
 }
 
-.skill div div{
+.skd{
     width: 80%; height: 4vh;
     border-radius: 20px;
     border-top-right-radius: 0px; border-bottom-right-radius: 0px;
@@ -250,22 +407,22 @@ nav ul li a {
 
 #d1{
     background-color: rgb(157, 44, 199);
-    width: 80%;
+    width: 70%;
 }
 
 #d2{
     background-color: aqua;
-    width: 55%;
+    width: 70%;
 }
 
 #d3{
-    background-color: orangered;
-    width: 40%;
+    background-color:greenyellow;
+    width: 95%;
 }
 
 #d4{
     background-color: greenyellow;
-    width: 40%;
+    width: 99%;
 }
 
 #d5{
@@ -274,8 +431,8 @@ nav ul li a {
 }
 
 #d6{
-    background-color:yellow;
-    width: 40%;
+    background-color:rgb(255, 119, 0);
+    width: 98%;
 }
 
 #d7{
@@ -285,9 +442,88 @@ nav ul li a {
 
 #d8{
     background-color:pink;
-    width: 40%;
+    width: 95%;
 }
 
+#d10{
+    background-color:yellow;
+    width: 90%;
+}
+
+.box{
+    width: 100%;
+    height: 25vh;
+    background-color: #a0a0a0;
+    border-radius: 20px;
+}
+.orange,.aqua,.pink,.purple,.green,.yellow{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 8%;
+    right: 4%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.orange{
+     background-image: linear-gradient(to top,rgb(255, 102, 0),rgba(255, 64, 0, 0.5));
+}
+.aqua{
+    background-image: linear-gradient(to top,aqua,rgba(0, 238, 255, 0.5));
+}
+.pink{
+    background-image: linear-gradient(to top,pink,rgba(255, 0, 225, 0.446));
+}
+.purple{
+    background-image: linear-gradient(to top,purple,rgba(86, 2, 86, 0.5));
+}
+.green{
+    background-image: linear-gradient(to top,greenyellow,rgba(37, 200, 0, 0.5));
+}
+.yellow{
+    background-image: linear-gradient(to top,yellow,rgba(255, 255, 0, 0.526));   
+}
+
+.orange div,.aqua div,.pink div,.purple div,.green div,.yellow div{
+    width: fit-content;
+    padding: 5%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 1%;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.orange div{
+background-color: #903200;
+border: 1px solid orangered;
+}
+.aqua div{
+background-color: rgb(0, 131, 131);
+border: 1px solid aqua;
+}
+.pink div{
+background-color: rgb(188, 0, 153);
+border: 1px solid pink;
+}
+.purple div{
+background-color: rgb(83, 0, 83);
+border: 1px solid rgb(207, 0, 207);
+}
+.green div{
+background-color: rgb(66, 110, 0);
+border: 1px solid greenyellow;
+}
+.yellow div{
+    background-color: rgb(154, 154, 0);
+    border: 1px solid yellow;   
+}
                                                 /* Projects */
 
 #projects{
@@ -297,14 +533,15 @@ nav ul li a {
 }
 
 .projects{
-    box-shadow: 2px 10px 10px 0px #151f32;
-    border-radius: 15px;
+       box-shadow: 2px 10px 10px 0px #151f32;
+       border-radius: 15px;
        max-width: 100%;
        height:fit-content ;
        background-image: linear-gradient(to bottom,white, #f5f5f5 );
        padding: 0px;
        display: flex; flex-direction: row;flex-wrap: wrap;
        justify-content:space-evenly; align-items: center;
+       margin-top: 3%;
    }
 
 .projects p{
@@ -316,6 +553,11 @@ nav ul li a {
     background-color: #ffffff;
     box-shadow: 2px 2px 2px 2px rgb(169, 204, 232);
     margin: 3%;
+    transition: 1s ease-in-out;
+}
+
+.project:hover{
+    transform: scale3d(10);
 }
 
 .project div{
@@ -328,7 +570,7 @@ nav ul li a {
 
 #projects h1{
         padding-left: 6%; padding-top: 0%;
-        font-size: 170%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 180%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -467,7 +709,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #222428;
-    color: rgb(193, 193, 193);
+    color: rgb(255, 255, 255);
 }
 
 footer img{
@@ -504,6 +746,18 @@ footer a{
        font-size: 330%;
     }
 
+    .i1{
+        margin-top: 30%;
+    }
+
+    .square{
+        top: 5%;
+        right: 15%;
+    }
+    .squarein p{
+        font-size: 1rem;
+    }
+
     .about p{
         font-size: 110%;
     }
@@ -512,20 +766,36 @@ footer a{
        width: 18rem;
       }
 
+      #line2{
+        font-size: 4.3rem;
+    }
+
 }
 
 @media (max-width: 1096px) {
 
     .about p{
-        padding-top: 4.3rem;
+        padding-top: 4rem;
     }
 
 }
 
 @media (max-width: 940px) {
+    .i1{
+        margin-top: 35%;
+    }
 
     .about p{
         padding-top: 3.3rem;
+    }
+    .squarein p{
+        font-size: 1rem;
+    }
+    #line1{
+        font-size: 1.3rem;
+    }
+    #line2{
+        font-size: 3.8rem;
     }
 
 }
@@ -534,6 +804,17 @@ footer a{
 
     .about p{
         padding-top: 2rem;
+    }
+    .circle2{
+        width: 40px;
+        height: 40px;
+    }
+    .circle2 div{
+        width: 20%;
+        height: 20%;
+    }
+    #line2{
+        font-size: 3.5rem;
     }
 
 }
@@ -554,6 +835,14 @@ footer a{
         display: none;
     }
 
+    .square{
+       right: 18%;
+    }
+
+    .i1{
+        margin-top: 50%;
+    }
+
     .about{
         width: 85%;
         display: flex !important;
@@ -563,6 +852,13 @@ footer a{
 
     .intro h1{
       font-size:250%;
+    }
+
+    #line1{
+        font-size: 1.1rem;
+    }
+    #line2{
+        font-size: 3.4rem;
     }
 
     #about{
@@ -585,11 +881,33 @@ footer a{
         padding-top: 3%; padding-left: 1%; padding-right: 0%; padding-bottom: 3%;
       }
 
+
 }
 
                                                  /* 700px */ 
 
 @media (max-width: 700px) {
+
+    .square{
+        width: 10% ;
+        height: 50%;
+        right: 25%;
+        border: 0px solid transparent;
+        transform: rotate(10deg);
+    }
+    .squarein{
+        border: 0px solid transparent;
+        top: 60%;
+        right: 70%;
+        
+    }
+    .square p{
+        display: none;
+    }
+
+    .i1{
+        margin-top: 15%;
+    }
 
     .CV{
        top: 1.2rem;
@@ -627,20 +945,46 @@ footer a{
 
 @media (max-width: 600px) {
 
-    .intro{
-        height: 56vh;
+    .outerCircle{
+        width: 90%;
+        flex-direction: column;
+        height:max-content;
+        margin-top: 10%;
     }
     .project div img{
         width: 20px; height: 20px;
     }
 
-    .skill div{
-         height: 3.2vh;
+
+    #line2{
+        font-size: 3.6rem;
+        margin-top: 6vh;
     }
-    
-    .skill div div{
-        height: 3.2vh;
-    }  
+
+.circle{
+    padding: 5%;
+}
+
+.i1{
+    margin-top: 7vh;
+}
+
+.k{
+    margin-top: 8vh;
+}
+    .circle2{
+      width: 50px;
+      height: 50px;
+      left: 0px;
+      margin-top: 15vh;
+      border-top: 2px solid rgb(254, 210, 255);
+    }
+    .squarein{
+        right: 80%;
+    }
+    .skill{
+        margin: 12%;
+    }
 
 }
 
@@ -677,22 +1021,6 @@ footer a{
         margin-top: 2%;
     }
 
-    .skill{
-        width: 90%;
-        margin: auto;
-    }
-
-    #skills{
-        height: fit-content;
-    }
-
-    .skill div{
-        height: 3vh;
-    }
-    
-    .skill div div{
-        height: 3vh;
-    }
 
     .projects{
            height:fit-content ;
