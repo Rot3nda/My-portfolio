@@ -286,7 +286,7 @@ nav ul li a {
     height: 100%;
     background-color: #ffffff;
     padding: 1rem;
-    
+    z-index: 5;
     display: none;
 }
 
