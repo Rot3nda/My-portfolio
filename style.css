@@ -983,7 +983,14 @@ footer a{
         right: 80%;
     }
     .skill{
-        margin: 12%;
+        margin: 10%;
+    }
+   
+    .intro{
+        border-bottom-left-radius: 0%;
+    }
+    .square{
+        height: 40%;
     }
 
 }
