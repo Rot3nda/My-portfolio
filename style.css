@@ -992,6 +992,9 @@ footer a{
     .square{
         height: 40%;
     }
+    .box{
+        height: 16vh;
+    }
 
 }
 
