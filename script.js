@@ -41,3 +41,16 @@ function closeMP()
 {
    document.getElementById("MP").style.display="none";
 }
+
+function op1(){
+   document.getElementById("option1").style.display="flex";
+}
+
+function op2(){
+   document.getElementById("option2").style.display="flex";
+}
+
+function closeOP(){
+   document.getElementById("option1").style.display="none";
+   document.getElementById("option2").style.display="none";
+}
