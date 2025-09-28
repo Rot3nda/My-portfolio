@@ -30,3 +30,14 @@ function sidebarOff(){
    document.getElementById("line2").style.visibility="visible";
    document.getElementById("line3").style.visibility="visible";
 }
+
+                                           // more projects appears
+function moreProjects(){
+   document.getElementById("MP").style.display="flex";
+}
+
+                                         // more projects disappears
+function closeMP()
+{
+   document.getElementById("MP").style.display="none";
+}

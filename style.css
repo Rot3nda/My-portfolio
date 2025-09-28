@@ -6,7 +6,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
                                           /* Body */
 
 body {
@@ -87,6 +86,7 @@ nav ul li a {
     background-image: linear-gradient(to bottom,#090c14,#000000);
     border-bottom-left-radius: 20%;
 }
+
 .intro p{
     color: #c6c6c6;
 }
@@ -101,7 +101,6 @@ nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .i1{
     width: 60%;
@@ -361,6 +360,35 @@ nav ul li a {
     padding-top: 4%; padding-bottom: 0%;padding-left: 2%; padding-right: 2%;
 }
 
+.dashboard{
+    width: 25%;
+    height: 5vh;
+    margin: 3% auto;
+    border-radius: 20px;
+    background-color: rgb(255, 207, 231);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dashboard div{
+    width: 30%;
+    height: 75%;
+    border-radius: 20px;
+    background-color: #a80089;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 85%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.all{
+    border: 3px solid rgb(255, 255, 255);
+}
+
 #sk{
    text-align: end;
    padding-right: 25%;
@@ -456,6 +484,7 @@ nav ul li a {
     background-color: #a0a0a0;
     border-radius: 20px;
 }
+
 .orange,.aqua,.pink,.purple,.green,.yellow{
     width: 100%;
     height: 100%;
@@ -500,6 +529,7 @@ nav ul li a {
     border-radius: 20px;
     font-weight: bold;
 }
+
 .orange div{
 background-color: #903200;
 border: 1px solid orangered;
@@ -553,11 +583,12 @@ border: 1px solid greenyellow;
     background-color: #ffffff;
     box-shadow: 2px 2px 2px 2px rgb(169, 204, 232);
     margin: 3%;
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 .project:hover{
-    transform: scale3d(10);
+    transform:translate3d(10px,10px,10px);
 }
 
 .project div{
@@ -572,7 +603,6 @@ border: 1px solid greenyellow;
         padding-left: 6%; padding-top: 0%;
         font-size: 180%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 
 #p1 img{
     width: 100%;
@@ -602,7 +632,6 @@ border: 1px solid greenyellow;
     text-decoration: none;
     color: black;
 }
-
 
 #p3 img{
     width: 100%;
@@ -644,6 +673,102 @@ border: 1px solid greenyellow;
     text-decoration: none;
     color: black;
 }
+
+#MP{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(transparent,black);
+    z-index: 1000;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.outMP{
+    width: 50%;
+    height: 65%;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    background-image: linear-gradient(transparent,rgb(255, 255, 255));
+    box-shadow: 2px 2px 2px 2px rgb(6, 6, 15);
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.MP1,.MP2,.MP3,.MP4{
+    width: 15rem;
+    height: 10rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(8, 8, 22);
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.MP1:hover,.MP2:hover,.MP3:hover,.MP4:hover{
+    transform:translate3d(10px,10px,-10px);
+}
+
+.up{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.up img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.down{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.closeMP{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px rgb(7, 7, 16);
+    margin: 3%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closeMP:hover{
+
+    background-color: rgb(180, 180, 180);
+    border: 2px solid aqua;
+
+    p{
+       transform: rotate(90deg);     
+    }
+}
+
 
 
                                                /* Contact */

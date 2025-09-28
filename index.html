@@ -89,7 +89,15 @@
                                                            <!--Skills-->
 
 <section onclick="sidebarOff()"  id="skills">
+
     <h1 id="sk">Skills</h1>
+
+<div class="dashboard">
+   <div>Front-End</div>
+   <div>Back-End</div>
+   <div class="all">All</div>
+</div>
+
 <div class="skills"> 
 
   <div class="skill">
@@ -173,12 +181,8 @@
 </div>
 </div>
 
+</div>
 </section>
-
-
-
-</section>
-
 
 
                                                          <!--Projects-->
@@ -186,6 +190,11 @@
 <section onclick="sidebarOff()"  id="projects">
     <h1>Projects</h1>
     <div class="projects">
+
+         <div id="p4" class="project">
+          <a href="https://rot3nda.github.io/R-R/"><div><img src="images/pexels-expect-best-79873-323780.jpg"></div></a>
+          <p>R&R Homes Real-Estate<br> (WebApp)</p>
+         </div>        
 
         <div id="p1" class="project">
          <a href="https://rot3nda.github.io/food/"><div><img src="images/pexels-prithpal-bhatia-530811-2518078.jpg"></div></a>
@@ -195,24 +204,50 @@
         <div id="p2" class="project">
           <a ><div><img src="images/pexels-vividcafe-681335.jpg"></div></a>
           <p>Traffic Data Analysis<br> (App/Website/Graphs)</p>
-         </div>      
+         </div>           
 
          <div id="p3" class="project">
           <a ><div><img src="images/pexels-jakubzerdzicki-25589797.jpg"></div></a>
           <p>Hot clues<br> (App/Website)</p>
-         </div>    
-         
-         <div id="p4" class="project">
-          <a ><div><img src="images/pexels-brigitte-tohm-36757-143642.jpg"></div></a>
-          <p>R&R Homes Real-Estate<br> (WebApp)</p>
-         </div>        
+         </div>      
 
-        <div id="p5" class="project">
-          <div><img src="images/icons8-more-50-2.png"></div>
+        <div onclick="moreProjects()" id="p5" class="project">
+         <div><img src="images/icons8-more-50-2.png"></div>
           <p>Click for more +</p>
         </div>
     </div>
 </section>
+
+                                                        <!--MORE Projects-->
+
+<section id="MP">
+<div class="outMP">
+  <div class="MP1">
+    <div class="up"><img src="images/pexels-brigitte-tohm-36757-143642.jpg"></div>
+    <div class="down"><p>K-Coffee</p><br><p>(website)</p></div>
+  </div>
+  <div class="MP1">
+    <div class="up"><img src="images/pexels-shkrabaanthony-5475779.jpg"></div>
+    <div class="down"><p>Hair-saloon</p><br><p>(webapp)</p></div>
+  </div>
+  <div class="MP2">
+    <div class="up"><img src="images/pexels-vividcafe-681368.jpg"></div>
+    <div class="down"><p>Weather</p><br><p>(webapp)</p></div>
+  </div>
+  <div class="MP3">
+    <div class="up"><img src="images/pexels-pixabay-532001.jpg"></div>
+    <div class="down"><p>Notes</p><br><p>(webapp)</p></div>
+  </div>
+  <div class="MP4">
+    <div class="up"><img src="images/pexels-jeshoots-com-147458-442584.jpg"></div>
+    <div class="down"><p>Quiz-game</p><br><p>(website)</p></div>
+  </div>
+</div>
+<div onclick="closeMP()" class="closeMP">
+<p>X</p>
+</div>
+</section>
+
 
                                                          <!--Contact-->
 
