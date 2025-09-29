@@ -92,12 +92,6 @@
 
     <h1 id="sk">Skills</h1>
 
-<div class="dashboard">
-   <div>Front-End</div>
-   <div>Back-End</div>
-   <div class="all">All</div>
-</div>
-
 <div class="skills"> 
 
   <div class="skill">
@@ -223,19 +217,19 @@
 <section id="MP">
 <div class="outMP">
   <div class="MP1">
-    <div class="up"><img src="images/pexels-brigitte-tohm-36757-143642.jpg"></div>
+    <div class="up"><img src="images/pexels-chevanon-302897.jpg"></div>
     <div class="down"><p>K-Coffee</p><br><p>(website)</p></div>
   </div>
   <div class="MP1">
-    <div class="up"><img src="images/pexels-shkrabaanthony-5475779.jpg"></div>
+    <div class="up"><img src="images/pexels-hudsonmarquesfotografia-3435323 2.jpg"></div>
     <div class="down"><p>Hair-saloon</p><br><p>(webapp)</p></div>
   </div>
   <div class="MP2">
-    <div class="up"><img src="images/pexels-vividcafe-681368.jpg"></div>
+    <div class="up"><img src="images/pexels-jimbear-1117403.jpg"></div>
     <div class="down"><p>Weather</p><br><p>(webapp)</p></div>
   </div>
   <div class="MP3">
-    <div class="up"><img src="images/pexels-pixabay-532001.jpg"></div>
+    <div class="up"><img src="images/pexels-thngocbich-636237.jpg"></div>
     <div class="down"><p>Notes</p><br><p>(webapp)</p></div>
   </div>
   <div class="MP4">
@@ -266,6 +260,10 @@
   </div>
 </section>
 
+<section id="siteInfo">
+<div class="si"></div>
+</section>
+
 
                                                          <!--Contact-->
 
@@ -273,16 +271,16 @@
     <div id="c1">
        <video autoplay loop muted src="images/AI.MP4" type="video/mp4"></video>
     </div>
-    <div id="c2">
+    <div id="c2"><!--onsubmit="sentF(event)-->
         <h1>Contact</h1>
         <div class="c2a">
-            <form onsubmit="sentF(event)">
+            <form action="mailto:rotenda.ra@yahoo.com" method="post" enctype="text/plain">
                 <label for="fname">Name(s):</label><br>
                 <input type="text" id="fname" name="fname" value=""><br>
                 <label for="lname">Subject:</label><br>
                 <input type="text" id="lname" name="lname" value=""><br>
                 <label for="msg">Enter Mail</label><br>
-                <input type="text" id="msg" name="lname" value=""><br><br>
+                <textarea type="text" id="msg" name="lname" value=""></textarea>
                 <input id="submit" type="submit" value="Send">
                 <h1 style="color: greenyellow;text-align: right; margin-right: 10%; font-size: 1.5rem;" id="sent"></h1>
               </form>
