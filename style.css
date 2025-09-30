@@ -85,10 +85,15 @@ nav ul li a {
     text-align: center;
     background-image: linear-gradient(to bottom,#090c14,#000000);
     border-bottom-left-radius: 20%;
+    background-image: url(images/F6431727-00CE-4AB8-A890-CFECE7E7581A\ copy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
 }
 
 .intro p{
-    color: #c6c6c6;
+    color: #ffffff;
     z-index: 10;
 }
 
@@ -110,6 +115,13 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+.i1 p{
+   font-weight: bold;
+   color: #e3e3e3;
+   -webkit-text-stroke: 0.1px rgb(0, 0, 0);
 }
 
 .square{
@@ -168,7 +180,7 @@ nav ul li a {
 }
 
 #line1{
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     z-index: 1;
 }
 #line1S{
@@ -672,7 +684,7 @@ border: 1px solid greenyellow;
     height: 65%;
     border-radius: 20px;
     background-color: rgb(240, 240, 240);
-    background-image: linear-gradient(transparent,rgb(255, 255, 255));
+    background-image: linear-gradient(transparent,rgb(255, 255, 255)); 
     box-shadow: 2px 2px 2px 2px rgb(6, 6, 15);
     flex-wrap: wrap;
     overflow-x: hidden;
