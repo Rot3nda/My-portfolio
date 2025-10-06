@@ -9,6 +9,8 @@
     <link rel="icon" type="image/x-icon" href="images/IMG_6545.png">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
 </head>
 
 
@@ -79,10 +81,12 @@
 <section onclick="sidebarOff()" id="about">
   <div class="about">
     <h1>About Me</h1>
+    <div class="aboutBottom">
     <img src="images/IMG_6545.png">
     <p>I'm 23, residing in Gauteng Hatfield. I'm currently doing <span style="color:orangered;font-size: larger;"><b>Computer Science Honours</b></span> at The University of Pretoria, I'm eagure to venture into <b>Software Engineering</b>/Data Science. I'm very much 
     <b>available</b> for employment and I'm always interested in an opportunity to learn and gain experience. I strive to know more and<span style="color:rgb(255, 0, 191);font-size: larger;"> <b><mark style="background-color: rgba(0, 119, 255, 0.253);color: rgb(255, 0, 217);">be the best</mark></b></span>.
     </p>
+    </div>
   </div>
 </section>
 
@@ -120,7 +124,7 @@
       <div>Css</div>
       <div>JS</div>
       <div>React</div>
-      <div>Django/Asp.net core</div>
+      <div>Asp.Net core</div>
       </div>
    </div>
 </div>
@@ -144,7 +148,7 @@
   </div>
   <div class="box"><div class="pink">
     <div>Reactnative</div>
-    <div>Django/Asp.net core</div>
+    <div>Asp.Net core</div>
   </div>
 </div>
 </div>
@@ -156,7 +160,7 @@
         </div>
         <div class="box"><div class="purple">
           <div>Qt</div>
-          <div>Django/Asp.net core</div>
+          <div>Asp.Net core</div>
         </div>
       </div>
   </div>
@@ -313,6 +317,16 @@
     <p>&copy; 2025 [Rot3nda]</p>
     <p style="font-size: 60%;"><br>Last updated 19 Sep 2025</p>
 </footer>
+
+<script>
+  ScrollReveal().reveal('.skill', {
+    distance: '50px',
+    duration: 800,
+    easing: 'ease-out',
+    origin: 'bottom', // can be top, left, right, bottom
+    interval: 200, // stagger multiple elements
+  });
+</script>
 
 </body>
 </html>
