@@ -68,7 +68,7 @@ nav ul li a {
 
 #back{
     display: none;
-    width: 30px;
+    width: 28px;
     height: 27px;
 }
 
@@ -1225,6 +1225,15 @@ footer a{
 
     .intro h1{
         font-size: 210%;
+    }
+
+    .intro{
+       background-image: url(images/IMG_4500.JPG);
+       height: 90vh;
+    }
+    .i1{
+        margin-top: 20%;
+        backdrop-filter: blur(2px);
     }
 
     .intro p{
