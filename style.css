@@ -1154,12 +1154,12 @@ footer a{
 
 
     #line2{
-        font-size: 3.6rem;
+        font-size: 3rem;
         margin-top: 6vh;
     }
 
 .circle{
-    padding: 5%;
+    padding: 3%;
 }
 
 .i1{
@@ -1173,7 +1173,7 @@ footer a{
       width: 50px;
       height: 50px;
       left: 0px;
-      margin-top: 15vh;
+      margin-top: 7vh;
       border-top: 2px solid rgb(254, 210, 255);
     }
     .square{
@@ -1233,7 +1233,7 @@ footer a{
        background-position: center;
        background-repeat: no-repeat;
        background-attachment: scroll;
-       height: 75vh;
+       height: 85vh;
     }
     .i1{
         margin-top: 20%;
