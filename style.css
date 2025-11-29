@@ -1229,8 +1229,11 @@ footer a{
 
     .intro{
        background-image: url(images/IMG_4500.JPG);
-       background-size: contain;
-       height: 80vh;
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-attachment: scroll;
+       height: 75vh;
     }
     .i1{
         margin-top: 20%;
