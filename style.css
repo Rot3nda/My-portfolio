@@ -1190,8 +1190,6 @@ footer a{
         display: none;
     }
 
-
-
     .orange,.aqua,.pink,.purple,.green,.yellow{
         top: 0;
         right:0;
@@ -1214,7 +1212,7 @@ footer a{
         font-weight: 0 !important;
     }
 
-    .sk{
+    #sk{
         font-size: 150%;
     }
     .sk1{
@@ -1225,7 +1223,14 @@ footer a{
     .skd{
         height: 100%;
     }
-   
+
+    #projects h1,.c2 h1{
+        font-size: 150%;
+    }
+
+.projects{
+    box-shadow: 2px 55px 55px 0px #151f32;
+}
     .intro{
         border-bottom-left-radius: 0%;
     }
@@ -1245,6 +1250,9 @@ footer a{
     }
     .about h1{
         font-size: 150%;
+    }
+    #contact{
+        margin-top: 10%;
     }
 }
 
