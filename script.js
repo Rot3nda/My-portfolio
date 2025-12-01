@@ -19,6 +19,7 @@ function sidebarPop(){
    document.getElementById("line1").style.visibility="hidden";
    document.getElementById("line2").style.visibility="hidden";
    document.getElementById("line3").style.visibility="hidden";
+   document.getElementById("bl").style.display="flex";
 }
  
                                              // sidebar disappears
@@ -28,6 +29,7 @@ function sidebarOff(){
    document.getElementById("menu").style.display="block";
    document.getElementById("line2").style.visibility="visible";
    document.getElementById("line3").style.visibility="visible";
+   document.getElementById("bl").style.display="none";
 }
 
                                            // more projects appears
