@@ -1180,19 +1180,33 @@ footer a{
         display: none;
     }
 
+
+
+    .orange,.aqua,.pink,.purple,.green,.yellow{
+        top: 0;
+        right:0;
+        font-weight: 0;
+    }
+
     #skills{
-        padding-top: 0%; padding-bottom: 0%;padding-left: 0%; padding-right: 0%;
         padding: 0;
+        margin-top: 10%;
         justify-content: left;
     }
+    .skills{
+        padding: 0;
+        margin: 0;
+    }
     .skill{
-        margin: 7% 5%;
+        margin: 7% 5.5%;
         width: 7.5rem;
         padding: 0;
+        margin: ;
     }
     .sk1{
         height: 2.5vh;
         margin-bottom: 10%;
+        box-shadow: 1px 1px 0.5px 0.5px transparent;
     }
     .skd{
         height: 100%;
@@ -1206,6 +1220,8 @@ footer a{
     }
     .box{
         height: 16vh;
+        background-color: transparent;
+        font-weight: 0;
     }
     .about img{
         width: 14rem;
