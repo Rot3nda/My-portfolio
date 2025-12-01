@@ -10,21 +10,8 @@
 
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  /*  line-height: 1.6; */
     background-color: #ffffff;
     scroll-behavior: smooth;
-}
-
-#bl{
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: #000000a2;
-    z-index: 4900;
 }
 
                                           /* Header */
@@ -313,9 +300,9 @@ nav ul li a {
     top: 4rem;
     right: 0px;
     position: fixed;
-    width: 60%;
+    width: 70%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     padding: 1rem;
     z-index: 5000;
     display: none;
@@ -943,7 +930,17 @@ footer a{
     margin: 0px;
 }
 
-
+#bl{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b4;
+    z-index: 4900;
+}
 
 
                                                 /* Responsive Design */
@@ -1176,7 +1173,7 @@ footer a{
     .rt{
         display: flex;
         text-align: left;
-   padding-left: 25px;
+   padding-left: 15%;
         width: 100%;
         font-weight: bold;
         font-size: 130%;
@@ -1184,10 +1181,12 @@ footer a{
 
     #line1{
         visibility: hidden;
+        
     }
 
     #line2{
         font-size: 200%;
+        margin-top: 0%;
     }
 
     #about{
