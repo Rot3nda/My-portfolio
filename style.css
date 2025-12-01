@@ -63,6 +63,7 @@ nav ul li a {
     display: none;
     position: relative;
     right: 22px;
+    z-index: 5000;
 }
 
 #menu{
@@ -297,7 +298,7 @@ nav ul li a {
 
 #sidebar{
     position: absolute;
-    top: 3.7rem;
+    top: 4rem;
     right: 0px;
     position: fixed;
     width: 60%;
@@ -1144,6 +1145,19 @@ footer a{
 
 
 @media (max-width: 600px) {
+
+    #nav2{
+        position:fixed;
+        background-color: #090c1439;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 7px;
+    }
 
     .rt{
         display: flex;
