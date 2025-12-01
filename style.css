@@ -118,13 +118,12 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(0px);
     border-radius: 15px;
 }
 .i1 p{
    font-weight: bold;
    color: #e3e3e3;
-   -webkit-text-stroke: 0.1px rgb(0, 0, 0);
 }
 
 .square{
@@ -1168,12 +1167,17 @@ footer a{
         top: 7px;
     }
 
+    .i1{
+        backdrop-filter: blur(5px);
+        margin-top: 30%;
+    }
+
 
 
     .rt{
         display: flex;
         text-align: left;
-        padding-left: 25px;
+        padding-left: 40px;
         width: 100%;
         font-weight: bold;
         font-size: 130%;
@@ -1186,6 +1190,10 @@ footer a{
     #line2{
         font-size: 200%;
         margin-top: 0%;
+        backdrop-filter: 3px;
+        width: fit-content;
+        height: fit-content;
+        backdrop-filter: blur(10px);
     }
 
     #about{
