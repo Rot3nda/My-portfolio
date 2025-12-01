@@ -26,7 +26,6 @@ function sidebarOff(){
    document.getElementById("sidebar").style.display="none";
    document.getElementById("back").style.display="none";
    document.getElementById("menu").style.display="block";
-   document.getElementById("line1").style.visibility="visible";
    document.getElementById("line2").style.visibility="visible";
    document.getElementById("line3").style.visibility="visible";
 }
