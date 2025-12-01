@@ -120,6 +120,7 @@ nav ul li a {
     margin-top: 10%;
     backdrop-filter: blur(0px);
     border-radius: 15px;
+    z-index: 6000;
 }
 .i1 p{
    font-weight: bold;
@@ -154,13 +155,12 @@ nav ul li a {
     align-items: center;
     border-left: 1px dotted orangered;
     background-image: linear-gradient(to bottom,#2b1e41,rgb(0, 0, 0));
-
-
 }
 
 .squarein:hover{
     background-image: linear-gradient(to left,#2b1e41,rgb(0, 0, 0));   
 }
+
 .squarein p{
     font-size: 1.2rem;
     color: rgb(239, 212, 255);
@@ -186,13 +186,14 @@ nav ul li a {
     font-size: 2.1rem;
     z-index: 1;
 }
+
 #line1S{
     font-size: 2.7rem;
     z-index: 1;
 }
+
 #line2{
     font-size: 4.5rem;
-    z-index: 1;
 }
 
 .outerCircle{
@@ -979,7 +980,6 @@ footer a{
     .aboutBottom{
         flex-wrap: wrap;
     }
-    
 
 }
 
@@ -1175,7 +1175,6 @@ footer a{
     .o1{
         width: 15rem;
     }
-
 
     .rt{
         display: flex;
