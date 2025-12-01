@@ -16,7 +16,6 @@ function sidebarPop(){
    document.getElementById("sidebar").style.display="block";
    document.getElementById("back").style.display="block";
    document.getElementById("menu").style.display="none";
-   document.getElementById("line1").style.visibility="hidden";
    document.getElementById("line2").style.visibility="hidden";
    document.getElementById("line3").style.visibility="hidden";
    document.getElementById("bl").style.display="flex";
