@@ -1142,6 +1142,15 @@ footer a{
 
 @media (max-width: 600px) {
 
+    #about{
+        margin-top: 10%;
+    }
+
+    .about{
+        max-width: 90%;
+    }
+
+
     .outerCircle{
         width: 90%;
         flex-direction: column;
@@ -1201,7 +1210,11 @@ footer a{
         margin: 7% 5.5%;
         width: 7.5rem;
         padding: 0;
-        margin: ;
+        font-weight: 0 !important;
+    }
+
+    .sk{
+        font-size: 150%;
     }
     .sk1{
         height: 2.5vh;
@@ -1228,6 +1241,9 @@ footer a{
     }
     .about p{
         margin: 2%;
+    }
+    .about h1{
+        font-size: 150%;
     }
 }
 
