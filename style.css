@@ -26,6 +26,10 @@ header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.rt{
+    display: none;
+}
+
 nav ul {
     list-style-type: none;
     text-align: center;
@@ -1141,6 +1145,24 @@ footer a{
 
 @media (max-width: 600px) {
 
+    .rt{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-weight: bold;
+        font-size: 130%;
+    }
+
+    #line1{
+        visibility: hidden;
+    }
+
+    #line2{
+        font-size: 200%;
+    }
+
     #about{
         margin-top: 10%;
     }
@@ -1149,7 +1171,9 @@ footer a{
         max-width: 90%;
         box-shadow: 0px 0px 2px 0px;
     }
-
+    .about img{
+        display: none;
+    }
 
     .outerCircle{
         width: 90%;
@@ -1280,11 +1304,14 @@ footer a{
     }
     .i1{
         margin-top: 20%;
-        backdrop-filter: blur(2px);
+        backdrop-filter: blur(3px);
     }
 
     .intro p{
         font-size: 90%;
+    }
+    #line2{
+        font-size: 400%;
     }
 
     #sk{
