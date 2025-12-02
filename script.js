@@ -279,7 +279,46 @@ function lightOn(){
    document.getElementById("dark").style.fontWeight="normal";
 }
 
+function dflt(){
+   document.getElementById("f").style.borderLeft="0px solid darkblue";
+   document.getElementById("f").style.borderRight="0px solid darkblue";
+   document.getElementById("f").style.borderRadius="0px";
+   document.getElementById("f").style.textAlign="left";
+   document.getElementById("f").style.fontWeight="normal";
 
+   document.getElementById("b").style.borderLeft="0px solid darkblue";
+   document.getElementById("b").style.borderRight="0px solid darkblue";
+   document.getElementById("b").style.borderRadius="0px";
+   document.getElementById("b").style.textAlign="left";
+   document.getElementById("b").style.fontWeight="normal";
+
+   document.getElementById("c").style.borderLeft="0px solid darkblue";
+   document.getElementById("c").style.borderRight="0px solid darkblue";
+   document.getElementById("c").style.borderRadius="0px";
+   document.getElementById("c").style.textAlign="left";
+   document.getElementById("c").style.fontWeight="normal";
+
+   document.getElementById("d").style.borderLeft="0px solid darkblue";
+   document.getElementById("d").style.borderRight="0px solid darkblue";
+   document.getElementById("d").style.borderRadius="0px";
+   document.getElementById("d").style.textAlign="left";
+   document.getElementById("d").style.fontWeight="normal";
+
+   document.getElementById("e").style.borderLeft="0px solid darkblue";
+   document.getElementById("e").style.borderRight="0px solid darkblue";
+   document.getElementById("e").style.borderRadius="0px";
+   document.getElementById("e").style.textAlign="left";
+   document.getElementById("e").style.fontWeight="normal";
+
+   document.getElementById("a").style.borderLeft="0px solid darkblue";
+   document.getElementById("a").style.borderRight="0px solid darkblue";
+   document.getElementById("a").style.borderRadius="0px";
+   document.getElementById("a").style.textAlign="left";
+   document.getElementById("a").style.fontWeight="normal";
+
+   document.getElementById("dark").style.display="none";
+   document.getElementById("light").style.display="none";
+}
 
                                            // more projects appears
 function moreProjects(){
