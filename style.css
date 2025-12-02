@@ -70,6 +70,7 @@ nav ul li a {
     height: 23px;
 }
 
+
 #back{
     display: none;
     width: 28px;
@@ -241,7 +242,7 @@ nav ul li a {
     height: 50px;
     border-radius: 100%;
     background-color: transparent;
-    border-top: 1.5px solid rgb(254, 210, 255);
+    border-top: 3px solid rgb(254, 210, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,12 +302,18 @@ nav ul li a {
     right: 0px;
     position: fixed;
     width: 60%;
-    height: 100%;
+    height: 100vh;
     background-color: #ffffff;
     padding: 1rem;
     z-index: 5000;
-    display: none;
+    transform: translateX(100%); /* hidden (off-screen) */
+    transition: transform 0.4s ease;
 }
+
+ #sidebar.open {
+    transform: translateX(0); /* slides in */
+      }
+
 
 #p11{
     text-align: center;
@@ -938,7 +945,7 @@ footer a{
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #00000089;
+    background-color: #00000099;
     z-index: 4900;
 }
 
@@ -1156,7 +1163,7 @@ footer a{
 
     #nav2{
         position:fixed;
-        background-color: #090c1439;
+        background-color: #090c146c;
         width: fit-content;
         height: fit-content;
         padding: 10px;
@@ -1219,6 +1226,29 @@ footer a{
     .project div img{
         width: 20px; height: 20px;
     }
+
+    #p4, #p2{
+        opacity: 0;
+        transform: translateX(-100px); /* start off-screen left */
+        transition: all 2s ease-out;
+    }
+    
+    #p4.visible, #p2.visible {
+        opacity: 1;
+        transform: translateX(0); /* slide into place */
+      }
+    
+      #p1, #p3{
+        opacity: 0;
+        transform: translateX(100px); /* start off-screen left */
+        transition: all 1s ease-out;
+    }
+    
+    #p1.visible, #p3.visible {
+        opacity: 1;
+        transform: translateX(0); /* slide into place */
+      }
+    
 
 
     #line2{

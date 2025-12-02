@@ -327,6 +327,43 @@
     origin: 'bottom', // can be top, left, right, bottom
     interval: 200, // stagger multiple elements
   });
+
+const sidebar = document.getElementById("sidebar");
+const toggle = document.getElementById("menu");
+const closeBtn = document.getElementById("back");
+
+toggle.onclick = () => {
+  sidebar.classList.add("open");
+
+  // show/hide your UI elements
+  document.getElementById("bl").style.display = "flex";
+  document.getElementById("menu").style.display = "none";
+  document.getElementById("back").style.display = "flex";
+};
+
+closeBtn.onclick = () => {
+  sidebar.classList.remove("open");
+
+  // hide overlay and change buttons
+  document.getElementById("bl").style.display = "none";
+  document.getElementById("menu").style.display = "flex";
+  document.getElementById("back").style.display = "none";
+};
+
+const elements = document.querySelectorAll('.project');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.2 }); // 20% visible on screen
+
+elements.forEach(el => observer.observe(el));
+
+
+
 </script>
 
 </body>
