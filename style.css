@@ -340,6 +340,17 @@ nav ul li a {
    text-decoration: none;
 }
 
+#f{
+    cursor: pointer;
+}
+
+#dark,#light{
+    padding-left: 25%;
+    font-size: 95% !important;
+    display: none;
+    cursor: pointer;
+}
+
                                            /* About */
 
 #about{
