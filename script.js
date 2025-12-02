@@ -266,6 +266,10 @@ function darkOn(){
    document.getElementById("light").style.borderRight="0px solid darkblue";
    document.getElementById("light").style.borderRadius="0px";
    document.getElementById("light").style.fontWeight="normal";
+
+   document.getElementById("sidebar").style.backgroundColor="black";
+   document.getElementById("sidebar").style.color="white";
+
 }
 
 function lightOn(){
