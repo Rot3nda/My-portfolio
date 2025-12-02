@@ -11,24 +11,195 @@ function navLeave()
    document.getElementById("homenav").style.borderBottom="2px solid rgb(141, 42, 239)";
 }
 
-                                              // side bar appears
-function sidebarPop(){
-   document.getElementById("sidebar").style.display="block";
-   document.getElementById("back").style.display="block";
-   document.getElementById("menu").style.display="none";
-   document.getElementById("line2").style.visibility="hidden";
-   document.getElementById("line3").style.visibility="hidden";
-   document.getElementById("bl").style.display="flex";
+function aboutOn(){
+   document.getElementById("a").style.borderLeft="2px solid darkblue";
+   document.getElementById("a").style.borderRight="2px solid darkblue";
+   document.getElementById("a").style.borderRadius="20px";
+   document.getElementById("a").style.textAlign="center";
+
+   document.getElementById("b").style.borderLeft="0px solid darkblue";
+   document.getElementById("b").style.borderRight="0px solid darkblue";
+   document.getElementById("b").style.borderRadius="0px";
+   document.getElementById("b").style.textAlign="left";
+
+   document.getElementById("c").style.borderLeft="0px solid darkblue";
+   document.getElementById("c").style.borderRight="0px solid darkblue";
+   document.getElementById("c").style.borderRadius="0px";
+   document.getElementById("c").style.textAlign="left";
+
+   document.getElementById("d").style.borderLeft="0px solid darkblue";
+   document.getElementById("d").style.borderRight="0px solid darkblue";
+   document.getElementById("d").style.borderRadius="0px";
+   document.getElementById("d").style.textAlign="left";
+
+   document.getElementById("e").style.borderLeft="0px solid darkblue";
+   document.getElementById("e").style.borderRight="0px solid darkblue";
+   document.getElementById("e").style.borderRadius="0px";
+   document.getElementById("e").style.textAlign="left";
+
+   document.getElementById("f").style.borderLeft="0px solid darkblue";
+   document.getElementById("f").style.borderRight="0px solid darkblue";
+   document.getElementById("f").style.borderRadius="0px";
+   document.getElementById("f").style.textAlign="left";
 }
- 
-                                             // sidebar disappears
-function sidebarOff(){
-   document.getElementById("sidebar").style.display="none";
-   document.getElementById("back").style.display="none";
-   document.getElementById("menu").style.display="block";
-   document.getElementById("line2").style.visibility="visible";
-   document.getElementById("line3").style.visibility="visible";
-   document.getElementById("bl").style.display="none";
+
+function skillOn(){
+   document.getElementById("b").style.borderLeft="2px solid darkblue";
+   document.getElementById("b").style.borderRight="2px solid darkblue";
+   document.getElementById("b").style.borderRadius="20px";
+   document.getElementById("b").style.textAlign="center";
+
+   document.getElementById("a").style.borderLeft="0px solid darkblue";
+   document.getElementById("a").style.borderRight="0px solid darkblue";
+   document.getElementById("a").style.borderRadius="0px";
+   document.getElementById("a").style.textAlign="left";
+
+   document.getElementById("c").style.borderLeft="0px solid darkblue";
+   document.getElementById("c").style.borderRight="0px solid darkblue";
+   document.getElementById("c").style.borderRadius="0px";
+   document.getElementById("c").style.textAlign="left";
+
+   document.getElementById("d").style.borderLeft="0px solid darkblue";
+   document.getElementById("d").style.borderRight="0px solid darkblue";
+   document.getElementById("d").style.borderRadius="0px";
+   document.getElementById("d").style.textAlign="left";
+
+   document.getElementById("e").style.borderLeft="0px solid darkblue";
+   document.getElementById("e").style.borderRight="0px solid darkblue";
+   document.getElementById("e").style.borderRadius="0px";
+   document.getElementById("e").style.textAlign="left";
+
+   document.getElementById("f").style.borderLeft="0px solid darkblue";
+   document.getElementById("f").style.borderRight="0px solid darkblue";
+   document.getElementById("f").style.borderRadius="0px";
+   document.getElementById("f").style.textAlign="left";
+}
+
+function projectOn(){
+   document.getElementById("c").style.borderLeft="2px solid darkblue";
+   document.getElementById("c").style.borderRight="2px solid darkblue";
+   document.getElementById("c").style.borderRadius="20px";
+   document.getElementById("c").style.textAlign="center";
+
+   document.getElementById("b").style.borderLeft="0px solid darkblue";
+   document.getElementById("b").style.borderRight="0px solid darkblue";
+   document.getElementById("b").style.borderRadius="0px";
+   document.getElementById("b").style.textAlign="left";
+
+   document.getElementById("a").style.borderLeft="0px solid darkblue";
+   document.getElementById("a").style.borderRight="0px solid darkblue";
+   document.getElementById("a").style.borderRadius="0px";
+   document.getElementById("a").style.textAlign="left";
+
+   document.getElementById("d").style.borderLeft="0px solid darkblue";
+   document.getElementById("d").style.borderRight="0px solid darkblue";
+   document.getElementById("d").style.borderRadius="0px";
+   document.getElementById("d").style.textAlign="left";
+
+   document.getElementById("e").style.borderLeft="0px solid darkblue";
+   document.getElementById("e").style.borderRight="0px solid darkblue";
+   document.getElementById("e").style.borderRadius="0px";
+   document.getElementById("e").style.textAlign="left";
+
+   document.getElementById("f").style.borderLeft="0px solid darkblue";
+   document.getElementById("f").style.borderRight="0px solid darkblue";
+   document.getElementById("f").style.borderRadius="0px";
+   document.getElementById("f").style.textAlign="left";
+}
+function contactOn(){
+   document.getElementById("d").style.borderLeft="2px solid darkblue";
+   document.getElementById("d").style.borderRight="2px solid darkblue";
+   document.getElementById("d").style.borderRadius="20px";
+   document.getElementById("d").style.textAlign="center";
+
+   document.getElementById("b").style.borderLeft="0px solid darkblue";
+   document.getElementById("b").style.borderRight="0px solid darkblue";
+   document.getElementById("b").style.borderRadius="0px";
+   document.getElementById("b").style.textAlign="left";
+
+   document.getElementById("c").style.borderLeft="0px solid darkblue";
+   document.getElementById("c").style.borderRight="0px solid darkblue";
+   document.getElementById("c").style.borderRadius="0px";
+   document.getElementById("c").style.textAlign="left";
+
+   document.getElementById("a").style.borderLeft="0px solid darkblue";
+   document.getElementById("a").style.borderRight="0px solid darkblue";
+   document.getElementById("a").style.borderRadius="0px";
+   document.getElementById("a").style.textAlign="left";
+
+   document.getElementById("e").style.borderLeft="0px solid darkblue";
+   document.getElementById("e").style.borderRight="0px solid darkblue";
+   document.getElementById("e").style.borderRadius="0px";
+   document.getElementById("e").style.textAlign="left";
+
+   document.getElementById("f").style.borderLeft="0px solid darkblue";
+   document.getElementById("f").style.borderRight="0px solid darkblue";
+   document.getElementById("f").style.borderRadius="0px";
+   document.getElementById("f").style.textAlign="left";
+}
+
+function cvOn(){
+   document.getElementById("e").style.borderLeft="2px solid darkblue";
+   document.getElementById("e").style.borderRight="2px solid darkblue";
+   document.getElementById("e").style.borderRadius="20px";
+   document.getElementById("e").style.textAlign="center";
+
+   document.getElementById("b").style.borderLeft="0px solid darkblue";
+   document.getElementById("b").style.borderRight="0px solid darkblue";
+   document.getElementById("b").style.borderRadius="0px";
+   document.getElementById("b").style.textAlign="left";
+
+   document.getElementById("c").style.borderLeft="0px solid darkblue";
+   document.getElementById("c").style.borderRight="0px solid darkblue";
+   document.getElementById("c").style.borderRadius="0px";
+   document.getElementById("c").style.textAlign="left";
+
+   document.getElementById("d").style.borderLeft="0px solid darkblue";
+   document.getElementById("d").style.borderRight="0px solid darkblue";
+   document.getElementById("d").style.borderRadius="0px";
+   document.getElementById("d").style.textAlign="left";
+
+   document.getElementById("a").style.borderLeft="0px solid darkblue";
+   document.getElementById("a").style.borderRight="0px solid darkblue";
+   document.getElementById("a").style.borderRadius="0px";
+   document.getElementById("a").style.textAlign="left";
+
+   document.getElementById("f").style.borderLeft="0px solid darkblue";
+   document.getElementById("f").style.borderRight="0px solid darkblue";
+   document.getElementById("f").style.borderRadius="0px";
+   document.getElementById("f").style.textAlign="left";
+}
+
+function themeOn(){
+   document.getElementById("f").style.borderLeft="2px solid darkblue";
+   document.getElementById("f").style.borderRight="2px solid darkblue";
+   document.getElementById("f").style.borderRadius="20px";
+   document.getElementById("f").style.textAlign="center";
+
+   document.getElementById("b").style.borderLeft="0px solid darkblue";
+   document.getElementById("b").style.borderRight="0px solid darkblue";
+   document.getElementById("b").style.borderRadius="0px";
+   document.getElementById("b").style.textAlign="left";
+
+   document.getElementById("c").style.borderLeft="0px solid darkblue";
+   document.getElementById("c").style.borderRight="0px solid darkblue";
+   document.getElementById("c").style.borderRadius="0px";
+   document.getElementById("c").style.textAlign="left";
+
+   document.getElementById("d").style.borderLeft="0px solid darkblue";
+   document.getElementById("d").style.borderRight="0px solid darkblue";
+   document.getElementById("d").style.borderRadius="0px";
+   document.getElementById("d").style.textAlign="left";
+
+   document.getElementById("e").style.borderLeft="0px solid darkblue";
+   document.getElementById("e").style.borderRight="0px solid darkblue";
+   document.getElementById("e").style.borderRadius="0px";
+   document.getElementById("e").style.textAlign="left";
+
+   document.getElementById("a").style.borderLeft="0px solid darkblue";
+   document.getElementById("a").style.borderRight="0px solid darkblue";
+   document.getElementById("a").style.borderRadius="0px";
+   document.getElementById("a").style.textAlign="left";
 }
 
                                            // more projects appears

@@ -38,7 +38,7 @@
 
                                                                <!-- Intro Front Page -->
 
-<section  onclick="sidebarOff()" class="intro">
+<section class="intro">
 
   <div class="introLeft">
 
@@ -68,11 +68,12 @@
 <section id="sidebar">
     <p id="p11">Menu</p>
     <div>
-       <a href="#about"><p onclick="sidebarOff()">About</p></a>
-       <a href="#skills"><p onclick="sidebarOff()">Skills</p></a>
-       <a href="#projects"><p onclick="sidebarOff()">Projects</p></a>
-       <a href="#contact"><p onclick="sidebarOff()">Contact</p></a>
-       <a href="cv/Resume-2.pdf"><p onclick="sidebarOff()">Resume</p></a>
+       <a href="#about"><p onclick="aboutOn()" id="a">About</p></a>
+       <a href="#skills"><p onclick="skillOn()" id="b">Skills</p></a>
+       <a href="#projects"><p onclick="projectOn()" id="c">Projects</p></a>
+       <a href="#contact"><p onclick="contactOn()" id="d">Contact</p></a>
+       <a href="cv/Resume-2.pdf"><p onclick="cvOn()" id="e">Resume</p></a>
+       <p onclick="themeOn()" id="f">Theme</p>
     </div>
 </section>
 
@@ -322,7 +323,7 @@
 <script>
   ScrollReveal().reveal('.skill', {
     distance: '50px',
-    duration: 800,
+    duration: 700,
     easing: 'ease-out',
     origin: 'bottom', // can be top, left, right, bottom
     interval: 200, // stagger multiple elements

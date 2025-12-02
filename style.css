@@ -1230,7 +1230,7 @@ footer a{
     #p4, #p2{
         opacity: 0;
         transform: translateX(-100px); /* start off-screen left */
-        transition: all 2s ease-out;
+        transition: all 0.8s ease-out;
     }
     
     #p4.visible, #p2.visible {
@@ -1241,7 +1241,7 @@ footer a{
       #p1, #p3{
         opacity: 0;
         transform: translateX(100px); /* start off-screen left */
-        transition: all 1s ease-out;
+        transition: all 0.8s ease-out;
     }
     
     #p1.visible, #p3.visible {
