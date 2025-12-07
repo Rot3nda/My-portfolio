@@ -279,21 +279,28 @@
     <div id="c1">
        <video autoplay loop muted src="images/AI.MP4" type="video/mp4"></video>
     </div>
-    <div id="c2"><!--onsubmit="sentF(event)-->
-        <h1>Contact</h1>
-        <div class="c2a">
-            <form action="mailto:rotenda.ra@yahoo.com" method="post" enctype="text/plain">
-                <label for="fname">Name(s):</label><br>
-                <input type="text" id="fname" name="fname" value=""><br>
-                <label for="lname">Subject:</label><br>
-                <input type="text" id="lname" name="lname" value=""><br>
-                <label for="msg">Enter Mail</label><br>
-                <textarea type="text" id="msg" name="lname" value=""></textarea>
-                <input id="submit" type="submit" value="Send">
-                <h1 style="color: greenyellow;text-align: right; margin-right: 10%; font-size: 1.5rem;" id="sent"></h1>
-              </form>
-        </div>
-    </div>
+    <div id="c2">
+      <h1>Contact</h1>
+      <div class="c2a">
+          <form action="https://api.web3forms.com/submit" method="POST">
+              
+              <!-- YOUR ACCESS KEY (get it free below) -->
+              <input type="hidden" name="access_key" value="d682c305-3224-443d-91ce-3e2311732dee">
+  
+              <label for="fname">Name(s):</label><br>
+              <input type="text" id="fname" name="name" required><br>
+  
+              <label for="subject">Subject:</label><br>
+              <input type="text" id="subject" name="subject" required><br>
+  
+              <label for="msg">Enter Mail</label><br>
+              <textarea id="msg" name="message" required></textarea>
+  
+              <input id="submit" type="submit" value="Send">
+          </form>
+      </div>
+  </div>
+  
 </section>
 
 <script>
