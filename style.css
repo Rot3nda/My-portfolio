@@ -208,7 +208,7 @@ nav ul li a {
 .circle{
     width: fit-content;
     height: fit-content;
-    padding: 1%;
+    padding: 2% 4%;
     border-radius: 20px;
     background-color: rgb(203, 162, 254);
     background-color: transparent;
@@ -223,16 +223,14 @@ nav ul li a {
     color: white;
     margin-top: 5%;
     z-index: 3;
-}
-
-#k1{
+    text-decoration: none;
+    cursor: pointer;
     background-image: linear-gradient(to top,transparent,rgb(92, 0, 92));
-}
-#k2{
+    cursor: pointer;
     background-image: linear-gradient(to bottom,transparent,purple);
 }
 
-#k1:hover,#k2:hover{
+.circle:hover{
     background-image: linear-gradient(to right,transparent,purple);
 }
 
@@ -280,6 +278,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .CV p{
