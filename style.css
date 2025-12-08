@@ -383,7 +383,6 @@ nav ul li a {
 #dark,#light{
     padding-left: 25%;
     font-size: 95% !important;
-    display: none;
     cursor: pointer;
 }
 
@@ -1460,7 +1459,7 @@ footer a{
        .project{
         width: 65%;
         height: fit-content;
-        background-image: linear-gradient(to bottom,white, #f5f5f5 );
+      /*  background-image: linear-gradient(to bottom,white, #f5f5f5 );*/
         padding: 0px;
         display: flex; flex-direction: column; flex-wrap: nowrap;
         padding-bottom: 0%;margin: 5%;
@@ -1519,3 +1518,45 @@ footer p{
         font-size: 85%;
     }
 }
+
+
+body,#about,.about,#skills,.skills,.skill,#projects,.projects,.project{
+    background-color:#101623;
+    color: rgb(150, 150, 150);
+}
+
+.projects{
+    background-image: linear-gradient(#101623,#101623);
+    box-shadow: 2px 2px 2px 2px #0a1018;
+}
+
+.project{
+    background-color:#141c2d;
+    box-shadow: 2px 2px 2px 2px #0a1018;
+}
+
+.box{
+    background-color: #243653;
+}
+
+.about h1, #sk, #projects h1{
+    color: rgb(0, 200, 255);
+}
+#contact,#c1,#c2,.c2a{
+    color: wheat;
+    background-image: linear-gradient(#101623,#101623);
+}
+
+#sidebar,.d1{
+    background-color: #101623;
+}
+.dd1{
+    border-top: 2px solid white !important;
+}
+.d1 p, .d1 a, .dd1 p, .dd2 p{
+    color: white !important;
+}
+#p11{
+    background-color: #212d48;
+}
+
