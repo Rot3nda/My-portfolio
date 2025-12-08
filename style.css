@@ -1523,7 +1523,7 @@ footer p{
 
 body,#about,.about,#skills,.skills,.skill,#projects,.projects,.project{
     background-color:#101623;
-    color: rgb(189, 189, 189);
+    color: rgb(255, 255, 255);
 }
 
 .projects{
@@ -1532,7 +1532,7 @@ body,#about,.about,#skills,.skills,.skill,#projects,.projects,.project{
 }
 
 .project{
-    background-color:#1d2841;
+    background-color:#1d2438;
     box-shadow: 2px 2px 2px 2px #0a1018;
 }
 
