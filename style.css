@@ -329,9 +329,9 @@ nav ul li a {
     color: #141a26;
 }
 
-#sidebar div{
+.d1{
     width: 100%;
-    height: 50%;
+    height: 45%;
     background-color: #ffffff;
 }
 
@@ -343,6 +343,42 @@ nav ul li a {
     cursor: pointer;
     display: none;
 }
+
+.dd1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 8% 1%;
+    width: 80%;
+    height: fit-content;
+    border-top: 2px solid black;
+    font-size: 70% !important;
+    margin: 0 !important;
+}
+.dd1 img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px !important;
+}
+.dd1 p,.dd2 p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.dd2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 70% !important;
+    margin: 0 !important;
+    padding-left: 1% !important;
+    border-top: 0px solid transparent !important;
+}
+.dd2 img{
+    width: 16px ; 
+    height: 16px;
+    margin-right: 10px !important;
+}
+
 
 #dark,#light{
     padding-left: 25%;
