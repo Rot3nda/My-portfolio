@@ -1568,6 +1568,30 @@ body,#about,.about,#skills,.skills,.skill,#projects,.projects,.project{
     background-color: #212635;
 }
 
+.outMP, .closeMP{
+    background-image: linear-gradient(#101623,#101623);
+    color: white;
+}
+
+.MP1,.MP2,.MP3,.MP4{
+    background-color: #1d2841;
+}
+
+
+#option1,#option2{
+    background-color: #000000d1;
+}
+.o1, .closeOP{
+    background-color:#101623;
+    color: white;
+}
+.o1 a,.info{
+    background-color: #243653;
+}
+.o1 div{
+    color: white;
+}
+
 #submit{
     background-color: #212635;
 }
