@@ -345,7 +345,7 @@ nav ul li a {
     margin: 0;
 }
 .d1 p{
-    padding: 0 10%;
+    padding: 0;
 }
 
 
@@ -367,7 +367,7 @@ nav ul li a {
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 8% 1%;
+    padding-top: 10%;
     width: 90%;
     height: fit-content;
     border-top: 2px solid black;
