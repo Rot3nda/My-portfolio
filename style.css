@@ -336,12 +336,16 @@ nav ul li a {
 }
 
 .d1 a{
+    height: 8vh;
    display: flex;
    justify-content: left;
    align-items: center;
 }
 .d1{
     margin: 0;
+}
+.d1 p{
+    padding: 0 10%;
 }
 
 
@@ -368,7 +372,7 @@ nav ul li a {
     height: fit-content;
     border-top: 2px solid black;
     font-size: 80% !important;
-    margin: 10px 0 !important;
+    margin: 20px 0 !important;
 }
 .dd1 img{
     width: 18px;
@@ -396,7 +400,7 @@ nav ul li a {
 
 
 #dark,#light{
-    padding:0;
+    padding-left:15px;
     font-size: 95% !important;
     cursor: pointer;
 }
