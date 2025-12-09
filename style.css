@@ -367,7 +367,7 @@ nav ul li a {
     width: 90%;
     height: fit-content;
     border-top: 2px solid black;
-    font-size: 70% !important;
+    font-size: 80% !important;
     margin: 10px 0 !important;
 }
 .dd1 img{
@@ -401,11 +401,11 @@ nav ul li a {
     cursor: pointer;
 }
 #moon,#sun{
+    height: 4.5vh;
     padding-left:20%;
     display: none;
     align-items: center;
     justify-content: left;
-    height: fit-content;
     margin: 0;
 }
 #dark,#light{
@@ -419,6 +419,7 @@ nav ul li a {
     height: 17px;
     margin-right: 4px;
 }
+
 
                                            /* About */
 
