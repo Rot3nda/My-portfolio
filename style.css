@@ -331,8 +331,24 @@ nav ul li a {
 
 .d1{
     width: 100%;
-    height: 45%;
+    height: fit-content;
     background-color: #ffffff;
+}
+
+.d1 a{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+.d1{
+    margin: 0;
+}
+
+
+
+.d1 img{
+    width: 20px;
+    height: 20px;
 }
 
 #sidebar a{
@@ -341,7 +357,6 @@ nav ul li a {
 
 #f{
     cursor: pointer;
-    display: none;
 }
 
 .dd1{
@@ -349,15 +364,15 @@ nav ul li a {
     justify-content: left;
     align-items: center;
     padding: 8% 1%;
-    width: 80%;
+    width: 90%;
     height: fit-content;
     border-top: 2px solid black;
     font-size: 70% !important;
-    margin: 0 !important;
+    margin: 10px 0 !important;
 }
 .dd1 img{
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     margin-right: 10px !important;
 }
 .dd1 p,.dd2 p{
@@ -368,22 +383,41 @@ nav ul li a {
     display: flex;
     justify-content: left;
     align-items: center;
-    font-size: 70% !important;
+    font-size: 80% !important;
     margin: 0 !important;
     padding-left: 1% !important;
     border-top: 0px solid transparent !important;
 }
 .dd2 img{
-    width: 16px ; 
-    height: 16px;
+    width: 19px ; 
+    height: 19px;
     margin-right: 10px !important;
 }
 
 
 #dark,#light{
-    padding-left: 25%;
+    padding:0;
     font-size: 95% !important;
     cursor: pointer;
+}
+#moon,#sun{
+    padding-left:20%;
+    display: none;
+    align-items: center;
+    justify-content: left;
+    height: fit-content;
+    margin: 0;
+}
+#dark,#light{
+    display: none;
+}
+#moon img,#sun img{
+    margin: 0;
+}
+#moon img{
+    width: 17px;
+    height: 17px;
+    margin-right: 4px;
 }
 
                                            /* About */

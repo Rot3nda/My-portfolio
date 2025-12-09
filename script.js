@@ -48,6 +48,8 @@ function aboutOn(){
    document.getElementById("f").style.textAlign="left";
    document.getElementById("f").style.fontWeight="normal";
 
+   document.getElementById("moon").style.display="none";
+   document.getElementById("sun").style.display="none";
    document.getElementById("dark").style.display="none";
    document.getElementById("light").style.display="none";
 }
@@ -89,6 +91,8 @@ function skillOn(){
    document.getElementById("f").style.textAlign="left";
    document.getElementById("f").style.fontWeight="normal";
 
+   document.getElementById("moon").style.display="none";
+   document.getElementById("sun").style.display="none";
    document.getElementById("dark").style.display="none";
    document.getElementById("light").style.display="none";
 }
@@ -130,6 +134,8 @@ function projectOn(){
    document.getElementById("f").style.textAlign="left";
    document.getElementById("f").style.fontWeight="normal";
 
+   document.getElementById("moon").style.display="none";
+   document.getElementById("sun").style.display="none";
    document.getElementById("dark").style.display="none";
    document.getElementById("light").style.display="none";
 }
@@ -170,6 +176,8 @@ function contactOn(){
    document.getElementById("f").style.textAlign="left";
    document.getElementById("f").style.fontWeight="normal";
 
+   document.getElementById("moon").style.display="none";
+   document.getElementById("sun").style.display="none";
    document.getElementById("dark").style.display="none";
    document.getElementById("light").style.display="none";
 }
@@ -211,6 +219,8 @@ function cvOn(){
    document.getElementById("f").style.textAlign="left";
    document.getElementById("f").style.fontWeight="normal";
 
+   document.getElementById("moon").style.display="none";
+   document.getElementById("sun").style.display="none";
    document.getElementById("dark").style.display="none";
    document.getElementById("light").style.display="none";
 }
@@ -252,6 +262,8 @@ function themeOn(){
    document.getElementById("a").style.textAlign="left";
    document.getElementById("a").style.fontWeight="normal";
 
+   document.getElementById("moon").style.display="flex";
+   document.getElementById("sun").style.display="flex";
    document.getElementById("dark").style.display="block";
    document.getElementById("light").style.display="block";
    
