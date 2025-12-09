@@ -377,7 +377,7 @@ nav ul li a {
 .dd1 img{
     width: 18px;
     height: 18px;
-    margin-right: 10px !important;
+    margin-right: 0 !important;
 }
 .dd1 p,.dd2 p{
     margin: 0 !important;
@@ -395,7 +395,7 @@ nav ul li a {
 .dd2 img{
     width: 19px ; 
     height: 19px;
-    margin-right: 10px !important;
+    margin-right: 0 !important;
 }
 
 
@@ -403,8 +403,10 @@ nav ul li a {
     padding-left:15px;
     font-size: 95% !important;
     cursor: pointer;
+    margin: 0;
 }
 #moon,#sun{
+    width: fit-content;
     height: 4.5vh;
     padding-left:20%;
     display: none;
@@ -421,7 +423,6 @@ nav ul li a {
 #moon img{
     width: 17px;
     height: 17px;
-    margin-right: 4px;
 }
 
 
