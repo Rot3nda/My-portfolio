@@ -363,3 +363,118 @@ function closeOP(){
 }
 
 
+function toLight(){
+   document.getElementById("s").style.display="flex";
+   document.getElementById("m").style.display="none";
+   document.body.style.backgroundColor="white";
+   document.getElementById("about").style.backgroundColor="white";
+
+   let about = document.getElementsByClassName("about");
+   about[0].style.backgroundColor="white";
+   about[0].style.color="black";
+
+   document.getElementById("skills").style.backgroundColor="white";
+   document.getElementById("ah").style.color="black";
+   document.getElementById("sk").style.color="black";
+   document.getElementById("ph").style.color="black";
+   document.getElementById("skills").style.color="white";
+   document.getElementsByClassName("skills")[0].style.backgroundColor="white";
+
+   let sk=document.getElementsByClassName("skill");
+   for(let i=0;i<sk.length;i++)
+      {
+         sk[i].style.backgroundColor="white";
+      }
+
+   let boxx=document.getElementsByClassName("box");
+   for(let x=0;x<boxx.length;x++)
+      {
+         boxx[x].style.backgroundColor="grey";
+      }
+
+      document.getElementById("projects").style.backgroundColor="white";
+      document.getElementsByClassName("projects")[0].style.background = "linear-gradient(white, white)";
+      document.getElementsByClassName("projects")[0].style.boxShadow="2px 10px 10px 0px #151f32";
+
+      let p=document.getElementsByClassName("project");
+       for(let i=0;i<p.length;i++)
+        {
+         p[i].style.boxShadow='2px 2px 2px 2px rgb(169, 204, 232)';
+         p[i].style.backgroundColor="white";
+         p[i].style.color="black";
+        }
+      document.getElementById("contact").style.backgroundImage='linear-gradient(to right, white, #151f32)';
+      document.getElementById("c1").style.backgroundImage="linear-gradient(to right,white, #151f32)";
+      document.getElementById("c2").style.backgroundImage="linear-gradient(to right,white, #151f32)";
+      document.getElementsByClassName("c2a")[0].style.backgroundImage="linear-gradient(to right,white, #151f32)";
+      document.getElementsByClassName("c2a")[0].style.color="black";
+      document.getElementById("c2").style.color="black";
+      document.getElementsByTagName("footer")[0].style.background='#222428';
+
+      document.getElementById("sidebar").style.backgroundColor='white';
+      document.getElementById("sidebar").style.color='black';
+      document.getElementsByClassName("d1")[0].style.backgroundColor='white';
+      document.getElementById("a").style.color='black';
+      document.getElementById("b").style.color='black';
+      document.getElementById("c").style.color='black';
+      document.getElementById("d").style.color='black';
+      document.getElementById("e").style.color='black';
+      document.getElementById("f").style.color='black';
+}
+
+
+
+
+function toDark(){
+   document.getElementById("s").style.display="none";
+   document.getElementById("m").style.display="flex";
+   document.body.style.backgroundColor="#101623";
+   document.getElementById("about").style.backgroundColor="#101623";
+   let about = document.getElementsByClassName("about");
+   about[0].style.backgroundColor="#101623";
+   about[0].style.color="white";
+   document.getElementById("skills").style.backgroundColor="#101623";
+
+   
+
+
+
+   document.getElementById("ah").style.color="rgb(0, 200, 255)";
+   document.getElementById("sk").style.color="rgb(0, 200, 255)";
+   document.getElementById("ph").style.color="rgb(0, 200, 255)";
+   document.getElementById("skills").style.color="black";
+   document.getElementsByClassName("skills")[0].style.backgroundColor="#101623";
+
+   let sk=document.getElementsByClassName("skill");
+   for(let i=0;i<sk.length;i++)
+      {
+         sk[i].style.backgroundColor="#101623";
+         sk[i].style.color="white";
+      }
+
+   let boxx=document.getElementsByClassName("box");
+   for(let x=0;x<boxx.length;x++)
+      {
+         boxx[x].style.backgroundColor="#243653";
+      }
+
+      document.getElementById("projects").style.backgroundColor="#101623";
+      document.getElementsByClassName("projects")[0].style.background = "linear-gradient(#101623, #101623";
+      document.getElementsByClassName("projects")[0].style.boxShadow="2px 2px 2px 2px #0a1018";
+
+      let p=document.getElementsByClassName("project");
+       for(let i=0;i<p.length;i++)
+        {
+         p[i].style.boxShadow='2px 2px 2px 2px #0a1018';
+         p[i].style.backgroundColor="#161c2b";
+         p[i].style.color="white";
+        }
+      document.getElementById("contact").style.backgroundImage='linear-gradient(to right, #101623, #151f32)';
+      document.getElementById("c1").style.backgroundImage="linear-gradient(to right,#101623, #151f32)";
+      document.getElementById("c2").style.backgroundImage="linear-gradient(to right,#101623, #151f32)";
+      document.getElementsByClassName("c2a")[0].style.backgroundImage="linear-gradient(to right,#151f32,#101623";
+      document.getElementsByClassName("c2a")[0].style.color="white";
+      document.getElementById("c2").style.color="white";
+      document.getElementById("submit").style.backgroundColor="#121723";
+      document.getElementsByTagName("footer")[0].style.background='#101623';
+}

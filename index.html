@@ -18,8 +18,8 @@
                                                                   <!-- Navigation -->
 <div id="bl"></div>
 
-    <header>
-       
+    <header id="hd">
+      <div id="mode"><img onclick="toDark()" src="images/icons8-sun-50.png" id="s"><img onclick="toLight()" src="images/icons8-moon-50.png" id="m"></div>
         <nav id="nav1">
             <ul  onmouseleave="navLeave()">
                 <li id="homenav"><a href="#home">Home</a></li>
@@ -74,8 +74,8 @@
        <a id="d" href="#contact"><img src="images/icons8-contact-48.png"><p onclick="contactOn()" >Contact</p></a>
        <a id="e" href="cv/Resume-2.pdf"><img src="images/icons8-resume-100.png"><p onclick="cvOn()" >Resume</p></a>
        <a id="f"><img src="images/icons8-theme-100.png"><p onclick="themeOn()" >Theme</p></a>
-       <div id="moon"><img src="images/icons8-moon-50.png"><p id="dark" onclick="darkOn()">Dark</p></div>
-       <div id="sun"><img src="images/icons8-sun-50.png"><p id="light" onclick="lightOn()">Light</p></div>
+       <div id="moon"><img src="images/icons8-moon-50.png"><p id="dark" onclick="toDark()">Dark</p></div>
+       <div id="sun"><img src="images/icons8-sun-50.png"><p id="light" onclick="toLight()">Light</p></div>
     </div> 
     <div class="dd1">
       <img class="pic1" src="images/icons8-location-50.png"><img class="pic2" src="images/icons8-location-50-2.png"><p>Midrand SA</p>
@@ -89,7 +89,7 @@
 
 <section onclick="sidebarOff()" id="about">
   <div class="about">
-    <h1>About Me</h1>
+    <h1 id="ah">About Me</h1>
     <div class="aboutBottom">
     <img src="images/IMG_6545.png">
     <p>I'm 23, residing in Midrand, Gauteng. I'm currently doing <span style="color:orangered;font-size: larger;"><b>Bsc in Computer Science Honours</b></span> at The University of Pretoria, I'm eagure to venture into <b>Data Engineering</b> /Software Engineering. I'm very much 
@@ -196,7 +196,7 @@
                                                          <!--Projects-->
 
 <section onclick="sidebarOff()"  id="projects">
-    <h1>Projects</h1>
+    <h1 id="ph">Projects</h1>
     <div class="projects">
 
          <div onclick="op1()" id="p4" class="project">
@@ -318,7 +318,7 @@
     <img class="l" src="images/icons8-youtube-50.png">
     </div>
     <p>&copy; 2025 [Rot3nda]</p>
-    <p style="font-size: 60%;"><br>Last updated 09 Dec 2025</p>
+    <p style="font-size: 60%;"><br>Last updated 10 Dec 2025</p>
 </footer>
 
 <script>
@@ -340,7 +340,7 @@ toggle.onclick = () => {
   // show/hide your UI elements
   document.getElementById("bl").style.display = "flex";
   document.getElementById("menu").style.display = "none";
-  document.getElementById("back").style.display = "flex"; 
+  document.getElementById("back").style.display = "flex";  
 };
 
 closeBtn.onclick = () => {

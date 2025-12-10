@@ -25,6 +25,37 @@ header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#mode{
+    position: absolute;
+    top: 0.4rem;
+    left: 7rem; 
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #161e30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#mode:hover{
+    transform: rotate(200deg);
+    background-color: #0c101a;
+}
+
+#m{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+#s{
+    width: 25px;
+    height: 25px;
+}
+
 .rt{
     display: none;
 }
@@ -81,7 +112,6 @@ nav ul li a {
 
 .intro{
     max-width: 100%;
-    background-color: #151f32;
     height: 93vh;
     display: flex;
     flex-direction: row;
@@ -996,7 +1026,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #222428;
+    background-color: #222428 !important;
     color: rgb(255, 255, 255);
 }
 
@@ -1247,6 +1277,10 @@ footer a{
 
 
 @media (max-width: 600px) {
+
+    #mode{
+        display: none;
+    }
 
     #nav2{
         position:fixed;
@@ -1561,32 +1595,6 @@ footer p{
 }
 
 
-body,#about,.about,#skills,.skills,.skill,#projects,.projects,.project{
-    background-color:#101623;
-    color: rgb(255, 255, 255);
-}
-
-.projects{
-    background-image: linear-gradient(#101623,#101623);
-    box-shadow: 2px 2px 2px 2px #0a1018;
-}
-
-.project{
-    background-color:#1d2438;
-    box-shadow: 2px 2px 2px 2px #0a1018;
-}
-
-.box{
-    background-color: #243653;
-}
-
-.about h1, #sk, #projects h1{
-    color: rgb(0, 200, 255);
-}
-#contact,#c1,#c2,.c2a{
-    color: wheat;
-    background-image: linear-gradient(#101623,#101623);
-}
 
 #sidebar,.d1{
     background-color: #101623;
@@ -1633,7 +1641,7 @@ body,#about,.about,#skills,.skills,.skill,#projects,.projects,.project{
 }
 
 #submit{
-    background-color: #212635;
+    background-color: #121723;
 }
 
 footer{
