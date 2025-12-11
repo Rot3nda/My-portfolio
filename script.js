@@ -446,6 +446,15 @@ function toLight(){
 
 function toDark(){
 
+   document.getElementsByClassName("outMP")[0].style.backgroundImage="linear-gradient(to bottom,#101623, #101623)";
+   document.getElementsByClassName("outMP")[0].style.color="white";
+   document.getElementsByClassName("MP1")[0].style.backgroundColor="#243653";
+   document.getElementsByClassName("MP1")[1].style.backgroundColor="#243653";
+   document.getElementsByClassName("MP2")[0].style.backgroundColor="#243653";
+   document.getElementsByClassName("MP3")[0].style.backgroundColor="#243653";
+   document.getElementsByClassName("MP4")[0].style.backgroundColor="#243653";
+
+   
    document.getElementById("s").style.display="none";
    document.getElementById("m").style.display="flex";
    document.body.style.backgroundColor="#101623";
@@ -520,4 +529,7 @@ function toDark(){
       document.getElementsByClassName("pp2")[0].style.display="none";
       document.getElementsByClassName("pp2")[1].style.display="none";
       document.getElementsByClassName("dd1")[0].style.borderTop="2px solid white";
+
+      
+   
 }
