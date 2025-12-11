@@ -368,7 +368,7 @@ function toLight(){
    document.getElementById("m").style.display="none";
    document.body.style.backgroundColor="white";
    document.getElementById("about").style.backgroundColor="white";
-
+ 
    let about = document.getElementsByClassName("about");
    about[0].style.backgroundColor="white";
    about[0].style.color="black";
@@ -414,30 +414,46 @@ function toLight(){
       document.getElementById("sidebar").style.backgroundColor='white';
       document.getElementById("sidebar").style.color='black';
       document.getElementsByClassName("d1")[0].style.backgroundColor='white';
-      document.getElementById("a").style.color='black';
-      document.getElementById("b").style.color='black';
-      document.getElementById("c").style.color='black';
-      document.getElementById("d").style.color='black';
-      document.getElementById("e").style.color='black';
-      document.getElementById("f").style.color='black';
+      document.getElementById("p11").style.backgroundColor="#141a26";
+      
+      document.getElementById("sidebar").style.backgroundColor='white';
+      document.getElementById("sidebar").style.color='black';
+      document.getElementsByClassName("d1")[0].style.backgroundColor='white';
+      document.getElementById("p11").style.backgroundColor="#151f32";
+      document.getElementById("1").style.color="black";
+      document.getElementById("2").style.color="black";
+      document.getElementById("3").style.color="black";
+      document.getElementById("4").style.color="black";
+      document.getElementById("5").style.color="black";
+      document.getElementById("6").style.color="black";
+      document.getElementById("dark").style.color="black";
+      document.getElementById("light").style.color="black";
+
+      document.getElementsByClassName("pic1")[0].style.display="flex";
+      document.getElementsByClassName("pic1")[1].style.display="flex";
+      document.getElementsByClassName("pic2")[0].style.display="none";
+      document.getElementsByClassName("pic2")[1].style.display="none";   
+      document.getElementById("midrand").style.color="black";
+      document.getElementById("cellNo").style.color="black";
+      
+      document.getElementsByClassName("pp1")[0].style.display="none";
+      document.getElementsByClassName("pp1")[1].style.display="none";
+      document.getElementsByClassName("pp2")[0].style.display="flex";
+      document.getElementsByClassName("pp2")[1].style.display="flex";
 }
 
 
-
-
 function toDark(){
+
    document.getElementById("s").style.display="none";
    document.getElementById("m").style.display="flex";
    document.body.style.backgroundColor="#101623";
    document.getElementById("about").style.backgroundColor="#101623";
+
    let about = document.getElementsByClassName("about");
    about[0].style.backgroundColor="#101623";
    about[0].style.color="white";
    document.getElementById("skills").style.backgroundColor="#101623";
-
-   
-
-
 
    document.getElementById("ah").style.color="rgb(0, 200, 255)";
    document.getElementById("sk").style.color="rgb(0, 200, 255)";
@@ -469,12 +485,37 @@ function toDark(){
          p[i].style.backgroundColor="#161c2b";
          p[i].style.color="white";
         }
+
       document.getElementById("contact").style.backgroundImage='linear-gradient(to right, #101623, #151f32)';
-      document.getElementById("c1").style.backgroundImage="linear-gradient(to right,#101623, #151f32)";
+      document.getElementById("c1").style.backgroundImage="linear-gradient(to left,#101623, #151f32)";
       document.getElementById("c2").style.backgroundImage="linear-gradient(to right,#101623, #151f32)";
-      document.getElementsByClassName("c2a")[0].style.backgroundImage="linear-gradient(to right,#151f32,#101623";
+      document.getElementsByClassName("c2a")[0].style.backgroundImage="linear-gradient(to left,#151f32,#101623";
       document.getElementsByClassName("c2a")[0].style.color="white";
       document.getElementById("c2").style.color="white";
       document.getElementById("submit").style.backgroundColor="#121723";
-      document.getElementsByTagName("footer")[0].style.background='#101623';
+      document.getElementsByTagName("footer")[0].style.backgroundColor="#101623";
+
+      document.getElementById("sidebar").style.backgroundColor='#101623';
+      document.getElementById("sidebar").style.color='white';
+      document.getElementsByClassName("d1")[0].style.backgroundColor='#101623';
+      document.getElementById("p11").style.backgroundColor="#151f32";
+      document.getElementById("1").style.color="white";
+      document.getElementById("2").style.color="white";
+      document.getElementById("3").style.color="white";
+      document.getElementById("4").style.color="white";
+      document.getElementById("5").style.color="white";
+      document.getElementById("6").style.color="white";
+      document.getElementById("dark").style.color="white";
+      document.getElementById("light").style.color="white";
+
+      document.getElementsByClassName("pic1")[0].style.display="none";
+      document.getElementsByClassName("pic1")[1].style.display="none";
+      document.getElementsByClassName("pic2")[0].style.display="flex";
+      document.getElementsByClassName("pic2")[1].style.display="flex";   
+      document.getElementById("midrand").style.color="white";
+      document.getElementById("cellNo").style.color="white";
+      document.getElementsByClassName("pp1")[0].style.display="flex";
+      document.getElementsByClassName("pp1")[1].style.display="flex";
+      document.getElementsByClassName("pp2")[0].style.display="none";
+      document.getElementsByClassName("pp2")[1].style.display="none";
 }

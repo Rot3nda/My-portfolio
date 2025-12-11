@@ -405,8 +405,8 @@ nav ul li a {
     margin: 20px 0 !important;
 }
 .dd1 img{
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     margin-right: 15px !important;
 }
 .dd1 p,.dd2 p{
@@ -453,6 +453,19 @@ nav ul li a {
 #moon img{
     width: 17px;
     height: 17px;
+}
+#sun img{
+    width: 15px;
+    height: 15px;
+}
+.pp2{
+    width: 15px;
+    height: 15px;
+}
+
+#pp1{
+    width: 11px !important;
+    height: 11px !important;
 }
 
 
@@ -1026,7 +1039,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #222428 !important;
+    background-color: #222428;
     color: rgb(255, 255, 255);
 }
 
@@ -1438,7 +1451,7 @@ footer a{
     }
 
 .projects{
-    box-shadow: 0px 0px 0px 0px transparent;
+    box-shadow: 0px 0px 0px 0px transparent !important;
 }
     .intro{
         border-bottom-left-radius: 0%;
@@ -1595,55 +1608,3 @@ footer p{
 }
 
 
-
-#sidebar,.d1{
-    background-color: #101623;
-}
-
-.dd1{
-    border-top: 2px solid white !important;
-}
-
-.d1 p, .d1 a, .dd1 p, .dd2 p{
-    color: white !important;
-}
-
-.pic1{
-    display: none;
-}
-
-#p11{
-    background-color: #212635;
-}
-
-.outMP, .closeMP{
-    background-image: linear-gradient(#101623,#101623);
-    color: white;
-}
-
-.MP1,.MP2,.MP3,.MP4{
-    background-color: #1d2841;
-}
-
-
-#option1,#option2{
-    background-color: #000000d1;
-}
-.o1, .closeOP{
-    background-color:#101623;
-    color: white;
-}
-.o1 a,.info{
-    background-color: #243653;
-}
-.o1 div{
-    color: white;
-}
-
-#submit{
-    background-color: #121723;
-}
-
-footer{
-    background-color: #0a1018;
-}
