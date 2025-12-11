@@ -440,6 +440,7 @@ function toLight(){
       document.getElementsByClassName("pp1")[1].style.display="none";
       document.getElementsByClassName("pp2")[0].style.display="flex";
       document.getElementsByClassName("pp2")[1].style.display="flex";
+      document.getElementsByClassName("dd1")[0].style.borderTop="2px solid black";
 }
 
 
@@ -518,4 +519,5 @@ function toDark(){
       document.getElementsByClassName("pp1")[1].style.display="flex";
       document.getElementsByClassName("pp2")[0].style.display="none";
       document.getElementsByClassName("pp2")[1].style.display="none";
+      document.getElementsByClassName("dd1")[0].style.borderTop="2px solid white";
 }
