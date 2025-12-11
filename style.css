@@ -121,7 +121,7 @@ nav ul li a {
     border-bottom-left-radius: 20%;
     background-image: url(images/F6431727-00CE-4AB8-A890-CFECE7E7581A\ copy.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-size:cover;
 }
