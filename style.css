@@ -1171,6 +1171,10 @@ footer a{
 
 @media (max-width: 768px) {
 
+    #mode{
+        display: none;
+    }
+
     #nav1 {
         display: none;
     }
@@ -1184,11 +1188,11 @@ footer a{
     }
 
     .square{
-       right: 18%;
+       display: none;
     }
 
     .i1{
-        margin-top: 50%;
+        margin-top: 25%;
     }
 
     .about{
@@ -1253,7 +1257,7 @@ footer a{
     }
 
     .i1{
-        margin-top: 15%;
+        margin-top: 10%;
     }
 
     .CV{
@@ -1308,10 +1312,7 @@ footer a{
         top: 7px;
     }
 
-    .i1{
-        backdrop-filter: blur(5px);
-        margin-top: 35%;
-    }
+ 
 
     .o1{
         width: 15rem;
@@ -1333,10 +1334,8 @@ footer a{
     #line2{
         font-size: 200%;
         margin-top: 0%;
-        backdrop-filter: 3px;
         width: fit-content;
         height: fit-content;
-        backdrop-filter: blur(10px);
     }
 
     #about{
