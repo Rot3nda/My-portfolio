@@ -551,14 +551,13 @@ function toDark(){
       document.getElementsByClassName("pp2")[1].style.display="none";
       document.getElementsByClassName("dd1")[0].style.borderTop="2px solid white";
 
-      document.getElementsByClassName("closeOP")[0].style.backgroundColor="#101623";
+      document.getElementsByClassName("closeOP")[0].style.backgroundColor="#243653";
       document.getElementsByClassName("closeOP")[0].style.color="white";
-      document.getElementsByClassName("closeOP")[1].style.backgroundColor="#101623";
+      document.getElementsByClassName("closeOP")[1].style.backgroundColor="#243653";
       document.getElementsByClassName("closeOP")[1].style.color="white";
 
       document.getElementById("ap1").style.color="white";
       document.getElementById("ap2").style.color="white";
-
 
       document.getElementsByClassName("o1")[0].style.backgroundColor="#101623";
       document.getElementsByClassName("o1")[0].style.color="white";
@@ -566,4 +565,8 @@ function toDark(){
       document.getElementsByClassName("o1")[1].style.color="white";
       document.getElementsByClassName("info")[0].style.color="white";
       document.getElementsByClassName("info")[1].style.color="white";
+      document.getElementsByClassName("info")[0].style.backgroundColor="#243653";
+      document.getElementsByClassName("info")[1].style.backgroundColor="#243653";
+      document.getElementsByClassName("visit")[0].style.backgroundColor="#243653";
+      document.getElementsByClassName("visit")[1].style.backgroundColor="#243653";
 }
