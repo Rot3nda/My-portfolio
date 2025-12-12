@@ -120,10 +120,10 @@ nav ul li a {
     background-image: linear-gradient(to bottom,#090c14,#000000);
     border-bottom-left-radius: 20%;
     background-image: url(images/F6431727-00CE-4AB8-A890-CFECE7E7581A\ copy.jpg);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center;
-    background-size:cover;
 }
 
 .intro p{

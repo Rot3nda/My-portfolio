@@ -441,6 +441,27 @@ function toLight(){
       document.getElementsByClassName("pp2")[0].style.display="flex";
       document.getElementsByClassName("pp2")[1].style.display="flex";
       document.getElementsByClassName("dd1")[0].style.borderTop="2px solid black";
+
+      document.getElementsByClassName("closeOP")[0].style.backgroundColor="#101623";
+      document.getElementsByClassName("closeOP")[0].style.color="white";
+      document.getElementsByClassName("closeOP")[1].style.backgroundColor="#101623";
+      document.getElementsByClassName("closeOP")[1].style.color="white";
+
+      document.getElementsByClassName("closeOP")[0].style.backgroundColor="white";
+      document.getElementsByClassName("closeOP")[0].style.color="black";
+      document.getElementsByClassName("closeOP")[1].style.backgroundColor="white";
+      document.getElementsByClassName("closeOP")[1].style.color="black";
+
+      document.getElementById("ap1").style.color="black";
+      document.getElementById("ap2").style.color="black";
+
+
+      document.getElementsByClassName("o1")[0].style.backgroundColor="white";
+      document.getElementsByClassName("o1")[0].style.color="black";
+      document.getElementsByClassName("o1")[1].style.backgroundColor="white";
+      document.getElementsByClassName("o1")[1].style.color="black";
+      document.getElementsByClassName("info")[0].style.color="black";
+      document.getElementsByClassName("info")[1].style.color="black";
 }
 
 
@@ -530,6 +551,19 @@ function toDark(){
       document.getElementsByClassName("pp2")[1].style.display="none";
       document.getElementsByClassName("dd1")[0].style.borderTop="2px solid white";
 
-      
-   
+      document.getElementsByClassName("closeOP")[0].style.backgroundColor="#101623";
+      document.getElementsByClassName("closeOP")[0].style.color="white";
+      document.getElementsByClassName("closeOP")[1].style.backgroundColor="#101623";
+      document.getElementsByClassName("closeOP")[1].style.color="white";
+
+      document.getElementById("ap1").style.color="white";
+      document.getElementById("ap2").style.color="white";
+
+
+      document.getElementsByClassName("o1")[0].style.backgroundColor="#101623";
+      document.getElementsByClassName("o1")[0].style.color="white";
+      document.getElementsByClassName("o1")[1].style.backgroundColor="#101623";
+      document.getElementsByClassName("o1")[1].style.color="white";
+      document.getElementsByClassName("info")[0].style.color="white";
+      document.getElementsByClassName("info")[1].style.color="white";
 }
