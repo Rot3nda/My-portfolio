@@ -462,6 +462,10 @@ function toLight(){
       document.getElementsByClassName("o1")[1].style.color="black";
       document.getElementsByClassName("info")[0].style.color="black";
       document.getElementsByClassName("info")[1].style.color="black";
+      document.getElementsByClassName("info")[0].style.backgroundColor="white";
+      document.getElementsByClassName("info")[1].style.backgroundColor="white";
+      document.getElementsByClassName("visit")[0].style.backgroundColor="white";
+      document.getElementsByClassName("visit")[1].style.backgroundColor="white";
 }
 
 
