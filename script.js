@@ -574,3 +574,4 @@ function toDark(){
       document.getElementsByClassName("visit")[0].style.backgroundColor="#243653";
       document.getElementsByClassName("visit")[1].style.backgroundColor="#243653";
 }
+
