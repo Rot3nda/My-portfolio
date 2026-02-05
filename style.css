@@ -513,6 +513,94 @@ nav ul li a {
     margin: 5%;
   }
 
+  #education{
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 200, 255);
+  }
+
+  .eh{
+    width: 75%;
+    height: fit-content;
+    margin: 3% auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #education h1{
+    display: inline;
+    justify-self: flex-start;
+  }
+
+  .e1,.e2,.e3{
+    height: 10vh;
+    border-left: 2px solid rgb(0, 119, 255);
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    padding-left: 2%;
+    border-radius: 10px;
+  }
+  .e1{
+    width: 60%;
+  }
+  .e2{
+    width: 50%;
+  }
+  .e3{
+    width: 40%;
+  }
+
+  .e1 p,.e2 p,.e3 p{
+    margin: 2% 0;
+  }
+
+
+
+  #experience{
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 200, 255);
+  }
+
+  .ex{
+    width: 75%;
+    height: fit-content;
+    margin: 3% auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+
+  .exl{
+    width: 75%;
+    height: 20vh;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border-left: 2px solid rgb(0, 119, 255);
+  }
+
+
+
                                             /* Skills */
 
 #skills

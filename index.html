@@ -97,6 +97,18 @@
   </div>
 </section>
 
+<section id="education">
+  <div class="eh"><h1>Eduaction</h1></div>
+  <div class="e1"><p>Bsc Computer Science (University of Pretoria)</p></div>
+  <div class="e2"><p>Bsc Computing (University of South Africa)</p></div>
+  <div class="e3"><p>Bsc Computer Science Hons (University of Pretoria)</p></div>
+</section>
+
+<section id="experience">
+  <div class="ex"><h1>Experience</h1></div>
+  <div class="exl"></div>
+</section>
+
                                                            <!--Skills-->
 
 <section id="skills">
@@ -358,11 +370,11 @@ const observer = new IntersectionObserver(entries => {
       entry.target.classList.add('visible');
     }
   });
-}, { threshold: 0.2 }); // 20% visible on screen
+}, { threshold: 0.2 }); // 2% visible on screen
 
 elements.forEach(el => observer.observe(el));
 
-toDark();
+toDark(); // default mode is dark
 
 </script>
 
