@@ -1587,10 +1587,13 @@ footer a{
        background-position: center;
        background-repeat: no-repeat;
        background-attachment: scroll;
-       height: 85vh;
+       height: 70vh;
+       width: 80%;
+       border-radius: 15px;
+       margin: 40px auto;
     }
     .i1{
-        margin-top: 20%;
+        margin-top: 15%;
         backdrop-filter: blur(3px);
     }
 
@@ -1598,7 +1601,11 @@ footer a{
         font-size: 90%;
     }
     #line2{
-        font-size: 400%;
+        font-size: 300%;
+    }
+
+    .outerCircle{
+        margin-top: 5px;
     }
 
     #sk{
