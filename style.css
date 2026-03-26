@@ -1195,7 +1195,7 @@ footer{
 footer img{
         width: 35px;
         height: 35px;
-        margin: 2.5%;
+        margin: 3% 4%;
 }
 
 footer a{
@@ -1816,6 +1816,7 @@ footer a{
 
     #contact{
         height:fit-content;
+        padding: 0;
     }
 
     #contact h1{
@@ -1826,6 +1827,19 @@ footer a{
 
     #c2{
         padding-top: 1%;
+        width: 100% !important;
+    }
+
+    .c2a{
+        width: 100%;
+        background-color: red;
+    }
+
+    form{
+        width: fit-content;
+        height: fit-content;
+        margin: 0;
+        padding: 0;
     }
 
     #c1{
