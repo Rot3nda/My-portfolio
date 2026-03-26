@@ -505,6 +505,20 @@ function toLight(){
              cert.style.borderRight = "1px solid rgb(0, 200, 255)";
              cert.style.borderLeft = "1px solid rgb(0, 200, 255)";
          }
+
+         document.getElementById("bg-video").style.display="none";
+
+         document.getElementById("c1").style.display="block";
+         document.getElementById("contact").style.margin="5% 0"
+         document.getElementById("c2h").style.textAlign="left";
+         document.getElementById("c2h").style.paddingLeft="5%";
+         document.getElementById("c2").style.width="49%";
+         document.getElementById("c1").style.display="49%";
+         document.getElementById("c2").style.height="fit-content";
+         document.getElementsByClassName("c2a")[0].style.margin="0 auto";
+         document.getElementById("ttL").backgroundColor="rgb(0,0,0,0.3)";
+         document.getElementsByClassName("c2a")[0].style.width="100%";
+
 }
 
 
