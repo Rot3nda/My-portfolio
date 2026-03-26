@@ -518,29 +518,24 @@ function toDark(){
    
    document.getElementById("s").style.display="none";
    document.getElementById("m").style.display="flex";
-  // document.body.style.backgroundColor="#101623";
-   //document.getElementById("about").style.backgroundColor="#101623";
-   document.getElementById("about").style.backgroundColor="transparent";   //added
+   document.body.style.backgroundColor="#101623";
+   document.getElementById("about").style.backgroundColor="#101623";
 
    let about = document.getElementsByClassName("about");
- //  about[0].style.backgroundColor="#101623";
-   about[0].style.backgroundColor="transparent";  //added
+   about[0].style.backgroundColor="#101623";
    about[0].style.color="rgb(255, 255, 255)";
-  // document.getElementById("skills").style.backgroundColor="#101623";
-  document.getElementById("skills").style.backgroundColor="transparent";  //added
+   document.getElementById("skills").style.backgroundColor="#101623";
 
    document.getElementById("ah").style.color="rgb(0, 200, 255)";
    document.getElementById("sk").style.color="rgb(0, 200, 255)";
    document.getElementById("ph").style.color="rgb(0, 200, 255)";
    document.getElementById("skills").style.color="black";
-  // document.getElementsByClassName("skills")[0].style.backgroundColor="#101623";
-   document.getElementsByClassName("skills")[0].style.backgroundColor="transparent"; //added
+   document.getElementsByClassName("skills")[0].style.backgroundColor="#101623";
 
    let sk=document.getElementsByClassName("skill");
    for(let i=0;i<sk.length;i++)
       {
-        // sk[i].style.backgroundColor="#101623";
-        sk[i].style.backgroundColor="transparent";  //adeed
+         sk[i].style.backgroundColor="#101623";
          sk[i].style.color="white";
       }
 
@@ -550,36 +545,28 @@ function toDark(){
          boxx[x].style.backgroundColor="#243653";
       }
   
-     //   document.getElementById("projects").style.backgroundColor="#101623";
-      document.getElementById("projects").style.backgroundColor="transparent"; //added
-     // document.getElementsByClassName("projects")[0].style.background = "linear-gradient(#101623, #101623)";
+      document.getElementById("projects").style.backgroundColor="#101623";
+      document.getElementsByClassName("projects")[0].style.background = "linear-gradient(#101623, #101623)";
       document.getElementsByClassName("projects")[0].style.background= "linear-gradient(transparent, transparent)"; //added
-      //document.getElementsByClassName("projects")[0].style.boxShadow="2px 2px 2px 2px #0a1018"; 
+      document.getElementsByClassName("projects")[0].style.boxShadow="2px 2px 2px 2px #0a1018"; 
       
 
       let p=document.getElementsByClassName("project");
        for(let i=0;i<p.length;i++)
         {
-        // p[i].style.boxShadow='2px 2px 2px 2px #0a1018';
-        // p[i].style.backgroundColor="#161c2b";
-         p[i].style.backgroundColor="transparent"; //added
-
+         p[i].style.boxShadow='2px 2px 2px 2px #0a1018';
+         p[i].style.backgroundColor="#161c2b";
          p[i].style.color="white";
         }
 
-     // document.getElementById("contact").style.backgroundImage='linear-gradient(to right, #101623, #151f32)';
-      document.getElementById("contact").style.backgroundImage='linear-gradient(to right, transparent, transparent)'; //added
-     // document.getElementById("c1").style.backgroundImage="linear-gradient(to left,#101623, #151f32)";
-     // document.getElementById("c2").style.backgroundImage="linear-gradient(to right,#101623, #151f32)";
-     // document.getElementsByClassName("c2a")[0].style.backgroundImage="linear-gradient(to left,#151f32,#101623)";
-       document.getElementById("c1").style.backgroundImage="linear-gradient(to left,transparent,transparent)"; //added
-      document.getElementById("c2").style.backgroundImage="linear-gradient(to right,transparent,transparent)"; //added
-     document.getElementsByClassName("c2a")[0].style.backgroundImage="linear-gradient(to left,transparent,)"; //added
+      document.getElementById("contact").style.backgroundImage='linear-gradient(to right, #101623, #151f32)';
+      document.getElementById("c1").style.backgroundImage="linear-gradient(to left,#101623, #151f32)";
+      document.getElementById("c2").style.backgroundImage="linear-gradient(to right,#101623, #151f32)";
+      document.getElementsByClassName("c2a")[0].style.backgroundImage="linear-gradient(to left,#151f32,#101623)";
       document.getElementsByClassName("c2a")[0].style.color="white";
       document.getElementById("c2").style.color="white";
       document.getElementById("submit").style.backgroundColor="#121723";
-     // document.getElementsByTagName("footer")[0].style.backgroundColor="#101623";
-     document.getElementsByTagName("footer")[0].style.backgroundColor="transparent"; //added
+      document.getElementsByTagName("footer")[0].style.backgroundColor="#101623";
 
       document.getElementById("sidebar").style.backgroundColor='#101623';
       document.getElementById("sidebar").style.color='white';
@@ -630,8 +617,7 @@ function toDark(){
             document.getElementsByClassName("pl")[i].style.color="rgb(200, 200, 200)";
          }
       
-      //   document.getElementsByClassName("intro")[0].style.backgroundImage="url(images/pexels-cottonbro-8721317.jpg)";
-         document.getElementsByClassName("intro")[0].style.backgroundColor="transparent"; //added
+         document.getElementsByClassName("intro")[0].style.backgroundImage="url(images/pexels-cottonbro-8721317.jpg)";
          document.getElementById("education").style.color = "white";
          document.getElementById("eh").style.color = "rgb(0, 200, 255)";
    
