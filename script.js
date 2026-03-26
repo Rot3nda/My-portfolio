@@ -524,6 +524,8 @@ function toLight(){
 
 function toDark(){
 
+   document.getElementById("bg-video").style.display="block";
+
    document.getElementsByClassName("outMP")[0].style.backgroundImage="linear-gradient(to bottom,#101623, #101623)";
    document.getElementsByClassName("outMP")[0].style.color="white";
    document.getElementsByClassName("MP1")[0].style.backgroundColor="#243653";
@@ -568,13 +570,12 @@ function toDark(){
       document.getElementById("projects").style.backgroundColor="transparent"; //a
    //   document.getElementsByClassName("projects")[0].style.background = "linear-gradient(#101623, #101623)";
       document.getElementsByClassName("projects")[0].style.background= "linear-gradient(transparent, transparent)"; //added
-     // document.getElementsByClassName("projects")[0].style.boxShadow="2px 2px 2px 2px #0a1018"; 
       
 
       let p=document.getElementsByClassName("project");
        for(let i=0;i<p.length;i++)
         {
-       //  p[i].style.boxShadow='2px 2px 2px 2px #0a1018';
+         p[i].style.boxShadow='0px 0px 0px 0px transparent';
        //  p[i].style.backgroundColor="#161c2b";
          p[i].style.backgroundColor="transparent"; //a
          p[i].style.color="white";
