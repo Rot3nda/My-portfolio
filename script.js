@@ -522,6 +522,8 @@ function toLight(){
 
 function toDark(){
 
+   document.body.style.backgroundColor="#101623";
+
    document.getElementById("bg-video").style.display="block";
 
    document.getElementsByClassName("outMP")[0].style.backgroundImage="linear-gradient(to bottom,#101623, #101623)";
