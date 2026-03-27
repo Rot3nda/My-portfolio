@@ -642,7 +642,8 @@ function toDark(){
 
       for(let i=0;i<document.getElementsByClassName("pl").length;i++) 
          {
-            document.getElementsByClassName("pl")[i].style.color="rgb(200, 200, 200)";
+           // document.getElementsByClassName("pl")[i].style.color="rgb(200, 200, 200)";
+           document.getElementsByClassName("pl")[i].style.color="white";
          }
       
          document.getElementsByClassName("intro")[0].style.backgroundImage="url(images/pexels-cottonbro-8721317.jpg)";
