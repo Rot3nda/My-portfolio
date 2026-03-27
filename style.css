@@ -338,7 +338,7 @@ nav ul li a {
 
 #sidebar{
     position: absolute;
-    top: 4rem;
+    top: 5.2rem;
     right: 0px;
     position: fixed;
     width: 60%;
@@ -1466,8 +1466,6 @@ footer a{
         top: 7px;
     }
 
- 
-
     .o1{
         width: 15rem;
     }
@@ -1632,6 +1630,9 @@ footer a{
     #submit{
         width: 50%;
     }
+    #c1{
+        display: none !important;
+    }
 
     #cert{
         border-top: 1px solid grey;
@@ -1641,6 +1642,41 @@ footer a{
         border-right: 0px solid transparent;
         margin-bottom: 11px;   
       }
+
+      #contact{
+        height:fit-content;
+        padding: 0;
+    }
+
+    #contact h1{
+        text-align: center;
+        font-size: 170%;
+        margin-bottom: 5%;
+    }
+
+    #c2{
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    .c2a{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+    }
+
+    form{
+        width: 100%;
+        margin: 0 !important;
+    }
+    input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
 }
 
                                                   /* 430px */
@@ -1819,45 +1855,6 @@ footer a{
         height: fit-content;
     }
 
-    #contact{
-        height:fit-content;
-        padding: 0;
-    }
-
-    #contact h1{
-        text-align: center;
-        font-size: 170%;
-        margin-bottom: 5%;
-    }
-
-    #c2{
-        width: 100% !important;
-        margin: 0 auto !important;
-    }
-
-    .c2a{
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 !important;
-    }
-
-    form{
-        width: 100%;
-        margin: 0 !important;
-    }
-    input{
-        width: 100%;
-    }
-    textarea{
-        width: 100%;
-    }
-
-
-    #c1{
-        display: none;
-    }
 
     #c2 h1{
        padding-bottom: 2%;

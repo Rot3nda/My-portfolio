@@ -510,14 +510,13 @@ function toLight(){
 
          document.getElementById("c1").style.display="block";
          document.getElementById("contact").style.margin="5% 0"
-         document.getElementById("c2h").style.textAlign="left";
-         document.getElementById("c2h").style.paddingLeft="5%";
+
          document.getElementById("c2").style.width="49%";
          document.getElementById("c1").style.display="49%";
          document.getElementById("c2").style.height="fit-content";
          document.getElementsByClassName("c2a")[0].style.margin="0 auto";
          document.getElementById("ttL").backgroundColor="rgb(0,0,0,0.3)";
-         document.getElementsByClassName("c2a")[0].style.width="100%";
+         
 
 }
 
@@ -570,7 +569,7 @@ function toDark(){
       document.getElementById("projects").style.backgroundColor="transparent"; //a
    //   document.getElementsByClassName("projects")[0].style.background = "linear-gradient(#101623, #101623)";
       document.getElementsByClassName("projects")[0].style.background= "linear-gradient(transparent, transparent)"; //added
-      
+      document.getElementsByClassName("projects")[0].style.boxShadow="none";
 
       let p=document.getElementsByClassName("project");
        for(let i=0;i<p.length;i++)
@@ -597,7 +596,7 @@ function toDark(){
    //   document.getElementsByTagName("footer")[0].style.backgroundColor="#101623";
       document.getElementsByTagName("footer")[0].style.backgroundColor="transparent"; //a
 
-      document.getElementById("sidebar").style.backgroundColor='#101623';
+      document.getElementById("sidebar").style.backgroundColor='#101623e3';
       document.getElementById("sidebar").style.color='white';
       document.getElementsByClassName("d1")[0].style.backgroundColor='#101623';
       document.getElementById("p11").style.backgroundColor="#151f32";
