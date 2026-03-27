@@ -522,8 +522,6 @@ function toLight(){
 
 function toDark(){
 
-   document.body.style.backgroundColor="#101623";
-
    document.getElementById("bg-video").style.display="block";
 
    document.getElementsByClassName("outMP")[0].style.backgroundImage="linear-gradient(to bottom,#101623, #101623)";
@@ -680,6 +678,8 @@ document.getElementById("c2").style.width="70%";
 document.getElementById("c2").style.height="fit-content";
 document.getElementsByClassName("c2a")[0].style.margin="0 auto";
 document.getElementById("ttL").backgroundColor="rgb(0,0,0,0.3)";
+
+document.body.style.backgroundColor="#090c14";
 
 }
 
