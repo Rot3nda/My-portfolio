@@ -1655,6 +1655,11 @@ footer a{
         background-color: transparent;
     }
 
+    #nav2{
+        top: 28px;
+        right: 27px;
+    }
+
     .CV{
         width: 3.5rem;
      }
@@ -1826,24 +1831,45 @@ footer a{
     }
 
     #c2{
-        padding-top: 1%;
         width: 100% !important;
+        margin: 0 auto !important;
     }
 
     .c2a{
-        width: 100%;
-        background-color: red;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
     }
 
     form{
-        width: fit-content;
-        height: fit-content;
-        margin: 0;
-        padding: 0;
+        width: 100%;
+        margin: 0 !important;
     }
+    input{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+
 
     #c1{
         display: none;
+    }
+
+    #c2 h1{
+       padding-bottom: 2%;
+     
+    }
+
+    #submit{
+        margin-top: 10%;
+    }
+
+    .c a{
+        margin-right: 8%;
     }
 
     footer img{
