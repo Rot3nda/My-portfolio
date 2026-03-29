@@ -52,6 +52,7 @@ function aboutOn(){
    document.getElementById("sun").style.display="none";
    document.getElementById("dark").style.display="none";
    document.getElementById("light").style.display="none";
+   document.getElementById("modernD").style.display="none";
 }
 
 function skillOn(){
@@ -95,6 +96,7 @@ function skillOn(){
    document.getElementById("sun").style.display="none";
    document.getElementById("dark").style.display="none";
    document.getElementById("light").style.display="none";
+   document.getElementById("modernD").style.display="none";
 }
 
 function projectOn(){
@@ -138,6 +140,7 @@ function projectOn(){
    document.getElementById("sun").style.display="none";
    document.getElementById("dark").style.display="none";
    document.getElementById("light").style.display="none";
+   document.getElementById("modernD").style.display="none";
 }
 function contactOn(){
    document.getElementById("d").style.borderLeft="3px solid darkblue";
@@ -180,6 +183,7 @@ function contactOn(){
    document.getElementById("sun").style.display="none";
    document.getElementById("dark").style.display="none";
    document.getElementById("light").style.display="none";
+   document.getElementById("modernD").style.display="none";
 }
 
 function cvOn(){
@@ -223,6 +227,7 @@ function cvOn(){
    document.getElementById("sun").style.display="none";
    document.getElementById("dark").style.display="none";
    document.getElementById("light").style.display="none";
+   document.getElementById("modernD").style.display="none";
 }
 
 function themeOn(){
