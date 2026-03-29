@@ -264,9 +264,10 @@ function themeOn(){
 
    document.getElementById("moon").style.display="flex";
    document.getElementById("sun").style.display="flex";
+   document.getElementById("modernD").style.display="flex";
    document.getElementById("dark").style.display="block";
    document.getElementById("light").style.display="block";
-   
+   document.getElementById("mdL").style.display="block";
 }
 
 function darkOn(){
@@ -336,6 +337,7 @@ function dflt(){
    document.getElementById("sun").style.display="none";
    document.getElementById("dark").style.display="none";
    document.getElementById("light").style.display="none";
+
 }
 
                                            // more projects appears
@@ -429,6 +431,7 @@ function toLight(){
       document.getElementById("6").style.color="black";
       document.getElementById("dark").style.color="black";
       document.getElementById("light").style.color="black";
+      document.getElementById("mdL").style.color="black";
 
       document.getElementsByClassName("pic1")[0].style.display="flex";
       document.getElementsByClassName("pic1")[1].style.display="flex";
@@ -517,6 +520,11 @@ function toLight(){
          document.getElementById("c2").style.height="fit-content";
          document.getElementsByClassName("c2a")[0].style.margin="0 auto";
          document.getElementById("ttL").backgroundColor="rgb(0,0,0,0.3)";
+
+         document.querySelector("#ppL").style.display="block";
+
+         document.querySelector("#pp1L").style.display="none";
+
 
 }
 
@@ -610,6 +618,8 @@ function modernDark(){
       document.getElementById("6").style.color="white";
       document.getElementById("dark").style.color="white";
       document.getElementById("light").style.color="white";
+      document.getElementById("mdL").style.color="white";
+
 
       document.getElementsByClassName("pic1")[0].style.display="none";
       document.getElementsByClassName("pic1")[1].style.display="none";
@@ -681,7 +691,13 @@ document.getElementById("c2").style.height="fit-content";
 document.getElementsByClassName("c2a")[0].style.margin="0 auto";
 document.getElementById("ttL").backgroundColor="rgb(0,0,0,0.3)";
 
+document.querySelector(".d1").style.background="transparent";
+document.querySelector("#ppL").style.display="none";
+document.querySelector("#pp1L").style.display="block";
+
 document.body.style.backgroundColor="#090c14";
+
+
 
 }
 

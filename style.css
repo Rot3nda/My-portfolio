@@ -447,13 +447,13 @@ nav ul li a {
 }
 
 
-#dark,#light{
+#dark,#light,#mdL{
     padding-left:15px;
     font-size: 95% !important;
     cursor: pointer;
     margin: 0;
 }
-#moon,#sun,#modern-moon{
+#moon,#sun,#modernD{
     width: fit-content;
     height: 4.5vh;
     padding-left:20%;
@@ -462,7 +462,7 @@ nav ul li a {
     justify-content: left;
     margin: 0;
 }
-#dark,#light,#modern-moon{
+#dark,#light,#modernD{
     display: none;
 }
 #moon img,#sun img,#modern-moon{
@@ -489,6 +489,11 @@ nav ul li a {
 #pp1{
     width: 11px !important;
     height: 11px !important;
+}
+
+#modernD img{
+    width: 14px !important;
+    height: 14px !important;
 }
 
 
