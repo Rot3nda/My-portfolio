@@ -333,10 +333,6 @@ function dflt(){
    document.getElementById("a").style.justifyContent="left";
    document.getElementById("a").style.fontWeight="normal";
 
-   document.getElementById("moon").style.display="none";
-   document.getElementById("sun").style.display="none";
-   document.getElementById("dark").style.display="none";
-   document.getElementById("light").style.display="none";
 
 }
 
