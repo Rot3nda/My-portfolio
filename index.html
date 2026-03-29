@@ -18,7 +18,11 @@
 <div id="bl"></div>
 
     <header id="hd">
-      <div id="mode"><img onclick="toDark()" src="images/icons8-sun-50.png" id="s"><img onclick="toLight()" src="images/icons8-moon-50.png" id="m"></div>
+      <div id="mode">
+        <img onclick="toDark()" src="images/icons8-sun-50.png" id="s">
+        <img onclick="modernDark()" src="images/icons8-moon-50.png" id="m">
+        <img onclick="toLight()" src="images/icons8-moon-64.png" id="modern-dark">
+      </div>
         <nav id="nav1">
             <ul  onmouseleave="navLeave()">
                 <li id="homenav"><a href="#home">Home</a></li>
@@ -37,7 +41,7 @@
                                                                <!-- Intro Front Page -->
 
 <section class="intro">
-  <video autoplay muted loop playsinline id="bg-video">
+  <video autoplay muted loop playsinline poster="images/IMG_0107.jpg" id="bg-video">
     <source src="images/AI.MP4" type="video/mp4">
   </video>
   <div class="introLeft">
@@ -76,6 +80,8 @@
        <a id="f"><img src="images/icons8-theme-100.png"><p id="6" onclick="themeOn()">Theme</p></a>
        <div id="moon"><img id="pp1" class="pp1" src="images/icons8-moon-50.png"><img class="pp2" src="images/icons8-moon.gif"><p id="dark" onclick="toDark()">Dark</p></div>
        <div id="sun"><img class="pp1" src="images/icons8-sun-50.png"><img class="pp2" src="images/icons8-sun.gif"><p id="light" onclick="toLight()">Light</p></div>
+       <div id="sun"><img class="pp1" src="images/icons8-sun-50.png"><img class="pp2" src="images/icons8-sun.gif"><p id="light" onclick="toLight()">Light</p></div>
+       <div id="modern-moon"><img class="pp1" src="images/icons8-sun-50.png"><img class="pp2" src="images/icons8-sun.gif"><p id="light" onclick="toLight()">Dark-VR</p></div>
     </div> 
     <div class="dd1">
       <img class="pic1" src="images/icons8-location-50.png"><img class="pic2" src="images/icons8-location-50-2.png"><p id="midrand">Midrand SA</p>
@@ -416,7 +422,7 @@ const observer = new IntersectionObserver(entries => {
 
 elements.forEach(el => observer.observe(el));
 
-toDark(); // default mode is dark
+modernDark(); // default mode is modern dark
 
 </script>
 

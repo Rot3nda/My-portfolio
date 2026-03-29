@@ -366,6 +366,7 @@ function closeOP(){
 function toLight(){
    document.getElementById("s").style.display="flex";
    document.getElementById("m").style.display="none";
+   document.getElementById("modern-dark").style.display="none";
    document.body.style.backgroundColor="white";
    document.getElementById("about").style.backgroundColor="white";
  
@@ -520,7 +521,7 @@ function toLight(){
 }
 
 
-function toDark(){
+function modernDark(){
 
    document.getElementById("bg-video").style.display="block";
 
@@ -530,7 +531,8 @@ function toDark(){
    document.getElementsByClassName("MP2")[0].style.backgroundColor="#243653";
 
    document.getElementById("s").style.display="none";
-   document.getElementById("m").style.display="flex";
+   document.getElementById("m").style.display="none";
+   document.getElementById("modern-dark").style.display="flex";
   // document.body.style.backgroundColor="#101623";
   document.body.style.backgroundColor="transparent"; //a
   // document.getElementById("about").style.backgroundColor="#101623";
@@ -681,5 +683,15 @@ document.getElementById("ttL").backgroundColor="rgb(0,0,0,0.3)";
 
 document.body.style.backgroundColor="#090c14";
 
+}
+
+function toDark() {
+   modernDark();
+   document.getElementById("s").style.display="none";
+   document.getElementById("m").style.display="flex";
+   document.getElementById("modern-dark").style.display="none";
+   document.getElementById("bg-video").style.display="none";
+   document.getElementsByClassName("intro")[0].style.backgroundImage = "url(images/pexels-cottonbro-8721317.jpg)";
+   document.body.style.backgroundColor = "#090c14";
 }
 
