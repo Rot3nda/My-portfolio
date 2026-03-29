@@ -710,5 +710,6 @@ function toDark() {
    document.getElementById("bg-video").style.display="none";
    document.getElementsByClassName("intro")[0].style.backgroundImage = "url(images/pexels-cottonbro-8721317.jpg)";
    document.body.style.backgroundColor = "#090c14";
+   document.getElementById("sidebar").style.backgroundColor="#090c14";
 }
 
