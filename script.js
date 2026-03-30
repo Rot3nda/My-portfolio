@@ -360,9 +360,19 @@ function op2(){
    document.getElementById("option2").style.display="flex";
 }
 
+function op3(){
+   document.getElementById("option3").style.display="flex";
+}
+
+function op4(){
+   document.getElementById("option4").style.display="flex";
+}
+
 function closeOP(){
    document.getElementById("option1").style.display="none";
    document.getElementById("option2").style.display="none";
+   document.getElementById("option3").style.display="none";
+   document.getElementById("option4").style.display="none";
 }
 
 
@@ -457,20 +467,13 @@ function toLight(){
       document.getElementsByClassName("closeOP")[1].style.backgroundColor="white";
       document.getElementsByClassName("closeOP")[1].style.color="black";
 
-      document.getElementById("ap1").style.color="black";
-      document.getElementById("ap2").style.color="black";
 
+      for(let i=0;i<document.getElementsByClassName("o1").length;i++)
+         {
+            document.getElementsByClassName("o1")[i].style.color="black";
+            document.getElementsByClassName("o1")[i].style.backgroundColor="white";
+         }
 
-      document.getElementsByClassName("o1")[0].style.backgroundColor="white";
-      document.getElementsByClassName("o1")[0].style.color="black";
-      document.getElementsByClassName("o1")[1].style.backgroundColor="white";
-      document.getElementsByClassName("o1")[1].style.color="black";
-      document.getElementsByClassName("info")[0].style.color="black";
-      document.getElementsByClassName("info")[1].style.color="black";
-      document.getElementsByClassName("info")[0].style.backgroundColor="white";
-      document.getElementsByClassName("info")[1].style.backgroundColor="white";
-      document.getElementsByClassName("visit")[0].style.backgroundColor="white";
-      document.getElementsByClassName("visit")[1].style.backgroundColor="white";
 
       for(let i=0;i<document.getElementsByClassName("stack").length;i++) 
       {
@@ -542,30 +545,27 @@ function modernDark(){
    document.getElementById("s").style.display="none";
    document.getElementById("m").style.display="none";
    document.getElementById("modern-dark").style.display="flex";
-  // document.body.style.backgroundColor="#101623";
-  document.body.style.backgroundColor="transparent"; //a
-  // document.getElementById("about").style.backgroundColor="#101623";
-   document.getElementById("about").style.backgroundColor="transparent"; //a
+
+  document.body.style.backgroundColor="transparent"; 
+
+   document.getElementById("about").style.backgroundColor="transparent"; 
 
    let about = document.getElementsByClassName("about");
-   //about[0].style.backgroundColor="#101623";
-   about[0].style.backgroundColor="transparent"; //a
+
+   about[0].style.backgroundColor="transparent"; 
    about[0].style.color="rgb(255, 255, 255)";
-  // document.getElementById("skills").style.backgroundColor="#101623";
-   document.getElementById("skills").style.backgroundColor="transparent"; //a
+   document.getElementById("skills").style.backgroundColor="transparent"; 
 
    document.getElementById("ah").style.color="rgb(0, 200, 255)";
    document.getElementById("sk").style.color="rgb(0, 200, 255)";
    document.getElementById("ph").style.color="rgb(0, 200, 255)";
    document.getElementById("skills").style.color="black";
-   //document.getElementsByClassName("skills")[0].style.backgroundColor="#101623";
-   document.getElementsByClassName("skills")[0].style.backgroundColor="transparent"; //a
+   document.getElementsByClassName("skills")[0].style.backgroundColor="transparent"; 
 
    let sk=document.getElementsByClassName("skill");
    for(let i=0;i<sk.length;i++)
       {
-         //sk[i].style.backgroundColor="#101623";
-         sk[i].style.backgroundColor="transparent"; //a
+         sk[i].style.backgroundColor="transparent"; 
          sk[i].style.color="white";
       }
 
@@ -575,9 +575,7 @@ function modernDark(){
          boxx[x].style.backgroundColor="#243653";
       }
   
-    //  document.getElementById("projects").style.backgroundColor="#101623";
-      document.getElementById("projects").style.backgroundColor="transparent"; //a
-   //   document.getElementsByClassName("projects")[0].style.background = "linear-gradient(#101623, #101623)";
+      document.getElementById("projects").style.backgroundColor="transparent"; 
       document.getElementsByClassName("projects")[0].style.background= "linear-gradient(transparent, transparent)"; //added
       document.getElementsByClassName("projects")[0].style.boxShadow="none";
 
@@ -585,26 +583,19 @@ function modernDark(){
        for(let i=0;i<p.length;i++)
         {
          p[i].style.boxShadow='0px 0px 0px 0px transparent';
-       //  p[i].style.backgroundColor="#161c2b";
-         p[i].style.backgroundColor="transparent"; //a
+         p[i].style.backgroundColor="transparent"; 
          p[i].style.color="white";
         }
 
-    //  document.getElementById("contact").style.backgroundImage='linear-gradient(to right, #101623, #151f32)';
-      document.getElementById("contact").style.backgroundImage='linear-gradient(to right, transparent, transparent)'; //a
-   //   document.getElementById("c1").style.backgroundImage="linear-gradient(to left,#101623, #151f32)";
-    //  document.getElementById("c2").style.backgroundImage="linear-gradient(to right,#101623, #151f32)";
-    //  document.getElementsByClassName("c2a")[0].style.backgroundImage="linear-gradient(to left,#151f32,#101623)";
-    //  document.getElementById("c1").style.backgroundImage="linear-gradient(to left,transparent, transparent)"; //a
+      document.getElementById("contact").style.backgroundImage='linear-gradient(to right, transparent, transparent)'; 
       document.getElementById("c1").style.display="none";
-      document.getElementById("c2").style.backgroundImage="linear-gradient(to right,transparent,transparent)"; //a
-      document.getElementsByClassName("c2a")[0].style.backgroundImage="linear-gradient(to left,transparent,transparent)"; //a
+      document.getElementById("c2").style.backgroundImage="linear-gradient(to right,transparent,transparent)"; 
+      document.getElementsByClassName("c2a")[0].style.backgroundImage="linear-gradient(to left,transparent,transparent)"; 
 
       document.getElementsByClassName("c2a")[0].style.color="white";
       document.getElementById("c2").style.color="white";
       document.getElementById("submit").style.backgroundColor="#121723";
-   //   document.getElementsByTagName("footer")[0].style.backgroundColor="#101623";
-      document.getElementsByTagName("footer")[0].style.backgroundColor="transparent"; //a
+      document.getElementsByTagName("footer")[0].style.backgroundColor="transparent"; 
 
       document.getElementById("sidebar").style.backgroundColor="#101623e3";
       document.getElementsByClassName("d1")[0].style.backgroundColor="#101623e3";
@@ -639,23 +630,28 @@ function modernDark(){
       document.getElementsByClassName("closeOP")[1].style.backgroundColor="#243653";
       document.getElementsByClassName("closeOP")[1].style.color="white";
 
-      document.getElementById("ap1").style.color="white";
-      document.getElementById("ap2").style.color="white";
+ 
 
-      document.getElementsByClassName("o1")[0].style.backgroundColor="#101623";
-      document.getElementsByClassName("o1")[0].style.color="white";
-      document.getElementsByClassName("o1")[1].style.backgroundColor="#101623";
-      document.getElementsByClassName("o1")[1].style.color="white";
-      document.getElementsByClassName("info")[0].style.color="white";
-      document.getElementsByClassName("info")[1].style.color="white";
-      document.getElementsByClassName("info")[0].style.backgroundColor="#243653";
-      document.getElementsByClassName("info")[1].style.backgroundColor="#243653";
-      document.getElementsByClassName("visit")[0].style.backgroundColor="#243653";
-      document.getElementsByClassName("visit")[1].style.backgroundColor="#243653";
+      for(let i=0;i<document.getElementsByClassName("o1").length;i++)
+      {
+         document.getElementsByClassName("o1")[i].style.color="white";
+         document.getElementsByClassName("o1")[i].style.backgroundColor="#101623";
+      }
+
+      for(let i=0;i<document.getElementsByClassName("info").length;i++)
+         {
+            document.getElementsByClassName("info")[i].style.color="white";
+            document.getElementsByClassName("info")[i].style.backgroundColor="#243653";
+         }
+
+      for(let i=0;i<document.getElementsByClassName("visit").length;i++)
+         {
+            document.getElementsByClassName("visit")[i].style.color="white";
+            document.getElementsByClassName("visit")[i].style.backgroundColor="#243653";
+         }
 
       for(let i=0;i<document.getElementsByClassName("pl").length;i++) 
          {
-           // document.getElementsByClassName("pl")[i].style.color="rgb(200, 200, 200)";
            document.getElementsByClassName("pl")[i].style.color="white";
          }
       
