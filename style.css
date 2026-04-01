@@ -802,8 +802,6 @@ border: 1px solid greenyellow;
 
 .project{
     width: 17rem; height:fit-content;
-  /*  background-color: #ffffff;
-   box-shadow: 2px 2px 2px 2px rgb(169, 204, 232);   edited*/
     margin: 3%;
     transition: 0.5s ease-in-out;
     cursor: pointer;

@@ -413,7 +413,7 @@ function toLight(){
       let p=document.getElementsByClassName("project");
        for(let i=0;i<p.length;i++)
         {
-         p[i].style.boxShadow='2px 2px 2px 2px rgb(169, 204, 232)';
+         p[i].style.boxShadow='1.5px 1.5px 1.5px 1.5px rgb(169, 204, 232)';
          p[i].style.backgroundColor="white";
          p[i].style.color="black";
         }
@@ -528,6 +528,8 @@ function toLight(){
          document.querySelector("#ppL").style.display="block";
 
          document.querySelector("#pp1L").style.display="none";
+
+         document.getElementsByClassName("outMP")[0].style.background="white";
 
 
 }
